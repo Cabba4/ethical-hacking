@@ -1,0 +1,115 @@
+2023-10-24 15:58:39,595 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-24 16:11:15,521 [ERROR] sfp_accounts.py:93 : Unable to parse social media accounts list: Extra data: line 1 column 4 (char 3)
+2023-10-24 16:11:26,991 [ERROR] sfp_tool_wafw00f.py:81 : You enabled sfp_tool_wafw00f but did not set a path to the tool!
+2023-10-24 16:11:27,149 [ERROR] sfp_fsecure_riddler.py:179 : You enabled sfp_fsecure_riddler but did not set an API username/password!
+2023-10-24 16:11:30,912 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=ctf.wpk.tpu.fi
+2023-10-24 16:11:31,011 [ERROR] sfp_bingsearch.py:86 : You enabled sfp_bingsearch but did not set a Bing API key!
+2023-10-24 16:11:33,262 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/baafb60c5b917e1a938e55449b9403ec
+2023-10-24 16:11:35,744 [ERROR] sfp_networksdb.py:263 : You enabled sfp_networksdb but did not set an API key!
+2023-10-24 16:11:36,445 [ERROR] sfp_commoncrawl.py:95 : CommonCrawl index collection doesn't seem to be available.
+2023-10-24 16:11:36,445 [ERROR] sfp_commoncrawl.py:153 : Unable to fetch CommonCrawl index.
+2023-10-24 16:11:36,445 [ERROR] sfp_snov.py:161 : You enabled sfp_snov but did not set a Client ID and/or Client Secret
+2023-10-24 16:11:36,445 [ERROR] sfp_spyonweb.py:208 : You enabled sfp_spyonweb but did not set an API key!
+2023-10-24 16:11:37,186 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=ctf.wpk.tpu.fi
+2023-10-24 16:11:37,188 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-24 16:11:37,188 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-24 16:12:01,188 [ERROR] sflib.py:195 : Failed to connect to https://www.openbugbounty.org/search/?search=ctf.wpk.tpu.fi
+2023-10-24 16:12:01,228 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/991f42a74df7affd766f695efec57676
+2023-10-24 16:12:04,156 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=pc167-56.guest.tpu.fi
+2023-10-24 16:12:04,157 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-24 16:12:04,157 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-24 16:12:31,940 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=pc167-56.guest.tpu.fi
+2023-10-24 16:12:38,134 [ERROR] sfp_spyse.py:344 : You enabled sfp_spyse but did not set an API key!
+2023-10-24 16:12:38,134 [ERROR] sfp_tool_cmseek.py:90 : You enabled sfp_tool_cmseek but did not set a path to the tool!
+2023-10-24 16:12:38,134 [ERROR] sfp_tool_testsslsh.py:95 : You enabled sfp_tool_testsslsh but did not set a path to the tool!
+2023-10-24 16:13:03,203 [ERROR] sflib.py:195 : Failed to connect to https://www.openbugbounty.org/search/?search=pc167-56.guest.tpu.fi
+2023-10-24 16:13:04,777 [ERROR] sfp_tool_snallygaster.py:92 : You enabled sfp_tool_snallygaster but did not set a path to the tool!
+2023-10-24 16:13:04,777 [ERROR] sfp_tool_nuclei.py:103 : You enabled sfp_tool_nuclei but did not set a path to the tool and/or templates!
+2023-10-24 16:13:04,778 [ERROR] sfp_tool_wappalyzer.py:82 : You enabled sfp_tool_wappalyzer but did not set a path to the tool!
+2023-10-24 16:13:06,490 [ERROR] sfp_pastebin.py:94 : You enabled sfp_pastebin but did not set a Google API key!
+2023-10-24 16:13:06,491 [ERROR] sfp_onioncity.py:101 : You enabled sfp_onioncity but did not set a Google API key!
+2023-10-24 16:13:06,492 [ERROR] sfp_tool_whatweb.py:90 : You enabled sfp_tool_whatweb but did not set a path to the tool!
+2023-10-24 16:13:06,492 [ERROR] sfp_metadefender.py:158 : You enabled sfp_metadefender but did not set an API key!
+2023-10-24 16:13:06,492 [ERROR] sfp_googlesearch.py:93 : You enabled sfp_googlesearch but did not set a Google API key!
+2023-10-24 16:13:07,063 [ERROR] sfp_ipregistry.py:153 : You enabled sfp_ipregistry but did not set an API key!
+2023-10-24 16:13:07,063 [ERROR] sfp_ipinfo.py:114 : You enabled sfp_ipinfo but did not set an API key!
+2023-10-24 16:13:07,063 [ERROR] sfp_bingsharedip.py:100 : You enabled sfp_bingsharedip but did not set a Bing API key!
+2023-10-24 16:13:07,063 [ERROR] sfp_binaryedge.py:198 : You enabled sfp_binaryedge but did not set an API key!
+2023-10-24 16:13:08,031 [ERROR] sfp_iknowwhatyoudownload.py:135 : You enabled sfp_iknowwhatyoudownload but did not set an API key!
+2023-10-24 16:13:08,031 [ERROR] sfp_c99.py:401 : You enabled sfp_c99, but did not set an API key!
+2023-10-24 16:13:10,968 [ERROR] sfp_leakix.py:116 : Failed to retrieve content from LeakIX
+2023-10-24 16:13:12,364 [ERROR] sfp_hybrid_analysis.py:189 : Failed to retrieve content from Hybrid Analysis: Unexpected response status 403
+2023-10-24 16:13:46,321 [ERROR] sfp_onyphe.py:260 : You enabled sfp_onyphe, but did not set an API key!
+2023-10-24 16:13:46,752 [ERROR] sfp_shodan.py:186 : You enabled sfp_shodan but did not set an API key!
+2023-10-24 16:13:46,752 [ERROR] sfp_ipstack.py:88 : You enabled sfp_ipstack but did not set an API key!
+2023-10-24 16:13:46,752 [ERROR] sfp_tool_nbtscan.py:87 : You enabled sfp_tool_nbtscan but did not set a path to the tool!
+2023-10-24 16:13:46,752 [ERROR] sfp_tool_onesixtyone.py:102 : You enabled sfp_tool_onesixtyone but did not set a path to the tool!
+2023-10-24 16:13:46,752 [ERROR] sfp_tool_nmap.py:117 : You enabled sfp_tool_nmap but did not set a path to the tool!
+2023-10-24 16:13:47,803 [ERROR] sfp_neutrinoapi.py:178 : You enabled sfp_neutrinoapi but did not set an API key!
+2023-10-24 16:13:47,803 [ERROR] sfp_seon.py:147 : You enabled sfp_seon but did not set an API key!
+2023-10-24 16:13:49,818 [ERROR] sfp_viewdns.py:171 : You enabled sfp_viewdns but did not set an API key!
+2023-10-24 16:13:49,818 [ERROR] sfp_focsec.py:157 : You enabled sfp_focsec but did not set an API key!
+2023-10-24 16:13:50,460 [ERROR] sfp_ipapicom.py:117 : You enabled sfp_ipapicom but did not set an API key!
+2023-10-24 16:13:50,460 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.fi: module 'whois' has no attribute 'whois'
+2023-10-24 16:13:50,460 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.fi
+2023-10-24 16:13:50,461 [ERROR] sfp_dnsdb.py:159 : You enabled sfp_dnsdb but did not set an API key!
+2023-10-24 16:13:53,921 [ERROR] sfp_abstractapi.py:227 : You enabled sfp_abstractapi but did not set any API keys!
+2023-10-24 16:13:55,687 [ERROR] sfp_tool_retirejs.py:87 : You enabled sfp_tool_retirejs but did not set a path to the tool!
+2023-10-24 16:14:08,610 [ERROR] sfp_googlemaps.py:111 : You enabled sfp_googlemaps but did not set an API key!
+2023-10-24 16:14:08,610 [ERROR] sfp_wigle.py:198 : Invalid API key for sfp_wigle module
+2023-10-24 16:14:12,847 [ERROR] sfp_filemeta.py:99 : Strange content encountered, size of 178
+2023-10-24 16:14:21,405 [ERROR] sflib.py:195 : Failed to connect to https://ns1.tuni.fi/
+2023-10-24 16:14:30,674 [ERROR] sfp_filemeta.py:99 : Strange content encountered, size of 178
+2023-10-24 16:14:36,474 [ERROR] sflib.py:195 : Failed to connect to http://ns1.tuni.fi/
+2023-10-24 16:14:37,346 [ERROR] sflib.py:195 : Failed to connect to https://ns-secondary.funet.fi/
+2023-10-24 16:14:37,508 [ERROR] sflib.py:195 : Failed to connect to http://ns-secondary.funet.fi/
+2023-10-24 16:14:49,910 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tamk.fi: module 'whois' has no attribute 'whois'
+2023-10-24 16:14:49,910 [ERROR] sfp_whois.py:115 : No WHOIS record for tamk.fi
+2023-10-24 16:14:49,911 [ERROR] sfp_jsonwhoiscom.py:162 : You enabled sfp_jsonwhoiscom but did not set an API key!
+2023-10-24 16:14:51,599 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tuni.fi: module 'whois' has no attribute 'whois'
+2023-10-24 16:14:51,599 [ERROR] sfp_whois.py:115 : No WHOIS record for tuni.fi
+2023-10-24 16:14:52,333 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on funet.fi: module 'whois' has no attribute 'whois'
+2023-10-24 16:14:52,333 [ERROR] sfp_whois.py:115 : No WHOIS record for funet.fi
+2023-10-24 16:14:52,796 [ERROR] sflib.py:195 : Failed to connect to https://ns2.tuni.fi/
+2023-10-24 16:15:07,819 [ERROR] sflib.py:195 : Failed to connect to http://ns2.tuni.fi/
+2023-10-24 16:15:37,958 [ERROR] sflib.py:195 : Failed to connect to https://mail.tuni.fi/
+2023-10-24 16:16:08,008 [ERROR] sflib.py:195 : Failed to connect to http://mail.tuni.fi/
+2023-10-24 16:16:23,075 [ERROR] sflib.py:195 : Failed to connect to https://mail1.tuni.fi/
+2023-10-24 16:16:38,109 [ERROR] sflib.py:195 : Failed to connect to http://mail1.tuni.fi/
+2023-10-24 16:16:53,186 [ERROR] sflib.py:195 : Failed to connect to https://mail2.tuni.fi/
+2023-10-24 16:17:08,215 [ERROR] sflib.py:195 : Failed to connect to http://mail2.tuni.fi/
+2023-10-24 16:17:23,299 [ERROR] sflib.py:195 : Failed to connect to https://pc167-48.guest.tpu.fi/
+2023-10-24 16:17:38,327 [ERROR] sflib.py:195 : Failed to connect to http://pc167-48.guest.tpu.fi/
+2023-10-24 16:17:53,411 [ERROR] sflib.py:195 : Failed to connect to https://pc167-49.guest.tpu.fi/
+2023-10-24 16:18:09,564 [ERROR] sflib.py:195 : Failed to connect to http://pc167-49.guest.tpu.fi/
+2023-10-24 16:18:24,619 [ERROR] sflib.py:195 : Failed to connect to https://pc167-50.guest.tpu.fi/
+2023-10-24 16:18:41,694 [ERROR] sflib.py:195 : Failed to connect to http://pc167-50.guest.tpu.fi/
+2023-10-24 16:18:56,735 [ERROR] sflib.py:195 : Failed to connect to https://pc167-51.guest.tpu.fi/
+2023-10-24 16:19:11,768 [ERROR] sflib.py:195 : Failed to connect to http://pc167-51.guest.tpu.fi/
+2023-10-24 16:19:26,863 [ERROR] sflib.py:195 : Failed to connect to https://pc167-52.guest.tpu.fi/
+2023-10-24 16:19:41,895 [ERROR] sflib.py:195 : Failed to connect to http://pc167-52.guest.tpu.fi/
+2023-10-24 16:19:42,012 [ERROR] sflib.py:195 : Failed to connect to https://pc167-53.guest.tpu.fi/
+2023-10-24 16:19:42,070 [ERROR] sflib.py:195 : Failed to connect to http://pc167-53.guest.tpu.fi/
+2023-10-24 16:19:58,251 [ERROR] sflib.py:195 : Failed to connect to https://pc167-57.guest.tpu.fi/
+2023-10-24 16:20:13,307 [ERROR] sflib.py:195 : Failed to connect to http://pc167-57.guest.tpu.fi/
+2023-10-24 16:20:28,999 [ERROR] sflib.py:195 : Failed to connect to https://pc167-60.guest.tpu.fi/
+2023-10-24 16:20:44,031 [ERROR] sflib.py:195 : Failed to connect to http://pc167-60.guest.tpu.fi/
+2023-10-24 16:20:59,079 [ERROR] sflib.py:195 : Failed to connect to https://pc167-61.guest.tpu.fi/
+2023-10-24 16:21:14,108 [ERROR] sflib.py:195 : Failed to connect to http://pc167-61.guest.tpu.fi/
+2023-10-24 16:21:29,188 [ERROR] sflib.py:195 : Failed to connect to https://pc167-62.guest.tpu.fi/
+2023-10-24 16:21:44,221 [ERROR] sflib.py:195 : Failed to connect to http://pc167-62.guest.tpu.fi/
+2023-10-24 16:21:59,272 [ERROR] sflib.py:195 : Failed to connect to https://pc167-63.guest.tpu.fi/
+2023-10-24 16:22:14,298 [ERROR] sflib.py:195 : Failed to connect to http://pc167-63.guest.tpu.fi/
+2023-10-24 18:49:17,837 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+

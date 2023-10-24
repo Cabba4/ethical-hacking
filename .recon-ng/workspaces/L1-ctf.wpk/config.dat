@@ -1,0 +1,14 @@
+{
+    "discovery/info_disclosure/interesting_files": {
+        "SOURCE": "ctf.wpk.tpu.fi"
+    },
+    "recon/domains-hosts/hackertarget": {
+        "SOURCE": "tpu.fi"
+    },
+    "recon/netblocks-hosts/shodan_net": {
+        "SOURCE": "github.com"
+    },
+    "recon/domains-hosts/shodan_hostname": {
+        "SOURCE": "ctf.wpk.tpu.fi"
+    }
+}

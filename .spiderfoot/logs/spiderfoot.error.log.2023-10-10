@@ -1,0 +1,299 @@
+2023-10-10 15:03:50,730 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:04:18,791 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:11:21,989 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:12:14,014 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:13:47,862 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:14:30,692 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:16:31,535 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:24:22,433 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:24:32,641 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:24:54,187 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-10 15:41:01,577 [ERROR] sfp_accounts.py:93 : Unable to parse social media accounts list: Extra data: line 1 column 4 (char 3)
+2023-10-10 15:41:11,078 [ERROR] sfp_abstractapi.py:227 : You enabled sfp_abstractapi but did not set any API keys!
+2023-10-10 15:41:11,450 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg.blob.core.windows.net
+2023-10-10 15:41:11,461 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgtest.blob.core.windows.net
+2023-10-10 15:41:11,473 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgdev.blob.core.windows.net
+2023-10-10 15:41:11,775 [ERROR] sfp_binaryedge.py:198 : You enabled sfp_binaryedge but did not set an API key!
+2023-10-10 15:41:11,775 [ERROR] sfp_bingsearch.py:86 : You enabled sfp_bingsearch but did not set a Bing API key!
+2023-10-10 15:41:11,775 [ERROR] sfp_builtwith.py:139 : You enabled sfp_builtwith but did not set an API key!
+2023-10-10 15:41:11,775 [ERROR] sfp_c99.py:401 : You enabled sfp_c99, but did not set an API key!
+2023-10-10 15:41:11,970 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgweb.blob.core.windows.net
+2023-10-10 15:41:11,977 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgbeta.blob.core.windows.net
+2023-10-10 15:41:11,990 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgbucket.blob.core.windows.net
+2023-10-10 15:41:12,310 [ERROR] sfp_certspotter.py:153 : You enabled sfp_certspotter but did not set an API key!
+2023-10-10 15:41:12,310 [ERROR] sfp_dehashed.py:161 : You enabled sfp_dehashed but did not set an API key/API Key Username!
+2023-10-10 15:41:12,423 [ERROR] sfp_commoncrawl.py:95 : CommonCrawl index collection doesn't seem to be available.
+2023-10-10 15:41:12,423 [ERROR] sfp_commoncrawl.py:153 : Unable to fetch CommonCrawl index.
+2023-10-10 15:41:12,519 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgfiles.blob.core.windows.net
+2023-10-10 15:41:12,521 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgspace.blob.core.windows.net
+2023-10-10 15:41:12,523 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgcontent.blob.core.windows.net
+2023-10-10 15:41:12,527 [ERROR] sflib.py:195 : Failed to connect to https://dns.bufferover.run/dns?q=.h4cker.org
+2023-10-10 15:41:13,017 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgdata.blob.core.windows.net
+2023-10-10 15:41:13,048 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgstaging.blob.core.windows.net
+2023-10-10 15:41:13,069 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgprod.blob.core.windows.net
+2023-10-10 15:41:13,527 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgproduction.blob.core.windows.net
+2023-10-10 15:41:13,534 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgstage.blob.core.windows.net
+2023-10-10 15:41:13,539 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgapp.blob.core.windows.net
+2023-10-10 15:41:13,796 [ERROR] sfp_dnsdb.py:159 : You enabled sfp_dnsdb but did not set an API key!
+2023-10-10 15:41:14,047 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgmedia.blob.core.windows.net
+2023-10-10 15:41:14,057 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-test.blob.core.windows.net
+2023-10-10 15:41:14,058 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgdevelopment.blob.core.windows.net
+2023-10-10 15:41:14,570 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-dev.blob.core.windows.net
+2023-10-10 15:41:14,574 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-beta.blob.core.windows.net
+2023-10-10 15:41:14,575 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-web.blob.core.windows.net
+2023-10-10 15:41:15,081 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-bucket.blob.core.windows.net
+2023-10-10 15:41:15,083 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-space.blob.core.windows.net
+2023-10-10 15:41:15,092 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-files.blob.core.windows.net
+2023-10-10 15:41:15,589 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-content.blob.core.windows.net
+2023-10-10 15:41:15,609 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-data.blob.core.windows.net
+2023-10-10 15:41:15,639 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-prod.blob.core.windows.net
+2023-10-10 15:41:16,139 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-staging.blob.core.windows.net
+2023-10-10 15:41:16,154 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-production.blob.core.windows.net
+2023-10-10 15:41:16,157 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-stage.blob.core.windows.net
+2023-10-10 15:41:16,683 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-app.blob.core.windows.net
+2023-10-10 15:41:16,688 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-media.blob.core.windows.net
+2023-10-10 15:41:16,691 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-development.blob.core.windows.net
+2023-10-10 15:41:17,238 [ERROR] sflib.py:195 : Failed to connect to https://h4ckertest.blob.core.windows.net
+2023-10-10 15:41:17,248 [ERROR] sflib.py:195 : Failed to connect to https://h4cker.blob.core.windows.net
+2023-10-10 15:41:17,392 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerdev.blob.core.windows.net
+2023-10-10 15:41:17,787 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerweb.blob.core.windows.net
+2023-10-10 15:41:17,818 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerbeta.blob.core.windows.net
+2023-10-10 15:41:17,829 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerbucket.blob.core.windows.net
+2023-10-10 15:41:18,391 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerfiles.blob.core.windows.net
+2023-10-10 15:41:18,410 [ERROR] sflib.py:195 : Failed to connect to https://h4ckercontent.blob.core.windows.net
+2023-10-10 15:41:18,417 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerspace.blob.core.windows.net
+2023-10-10 15:41:18,952 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerdata.blob.core.windows.net
+2023-10-10 15:41:18,981 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerprod.blob.core.windows.net
+2023-10-10 15:41:19,014 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerstaging.blob.core.windows.net
+2023-10-10 15:41:19,494 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerproduction.blob.core.windows.net
+2023-10-10 15:41:19,503 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerstage.blob.core.windows.net
+2023-10-10 15:41:19,523 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerapp.blob.core.windows.net
+2023-10-10 15:41:20,072 [ERROR] sflib.py:195 : Failed to connect to https://h4ckermedia.blob.core.windows.net
+2023-10-10 15:41:20,098 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerdevelopment.blob.core.windows.net
+2023-10-10 15:41:20,104 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-test.blob.core.windows.net
+2023-10-10 15:41:20,633 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-web.blob.core.windows.net
+2023-10-10 15:41:20,641 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-dev.blob.core.windows.net
+2023-10-10 15:41:20,656 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-beta.blob.core.windows.net
+2023-10-10 15:41:21,170 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-bucket.blob.core.windows.net
+2023-10-10 15:41:21,172 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-files.blob.core.windows.net
+2023-10-10 15:41:21,178 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-space.blob.core.windows.net
+2023-10-10 15:41:21,683 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-data.blob.core.windows.net
+2023-10-10 15:41:21,690 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-content.blob.core.windows.net
+2023-10-10 15:41:21,695 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-prod.blob.core.windows.net
+2023-10-10 15:41:22,204 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-staging.blob.core.windows.net
+2023-10-10 15:41:22,212 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-production.blob.core.windows.net
+2023-10-10 15:41:22,225 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-stage.blob.core.windows.net
+2023-10-10 15:41:25,049 [ERROR] sfp_emailcrawlr.py:158 : You enabled sfp_emailcrawlr but did not set an API key!
+2023-10-10 15:41:42,447 [ERROR] sflib.py:195 : Failed to connect to https://sonar.omnisint.io/subdomains/h4cker.org?page=0
+2023-10-10 15:41:43,458 [ERROR] sfp_crobat_api.py:96 : Failed to retrieve content from Crobat API
+2023-10-10 15:41:47,933 [ERROR] sfp_hunter.py:128 : You enabled sfp_hunter but did not set an API key!
+2023-10-10 15:41:48,918 [ERROR] sfp_fullcontact.py:171 : You enabled sfp_fullcontact but did not set an API key!
+2023-10-10 15:41:48,918 [ERROR] sfp_fsecure_riddler.py:179 : You enabled sfp_fsecure_riddler but did not set an API username/password!
+2023-10-10 15:41:48,918 [ERROR] sfp_fullhunt.py:143 : You enabled sfp_fullhunt but did not set an API key!
+2023-10-10 15:42:07,067 [ERROR] sfp_googlemaps.py:111 : You enabled sfp_googlemaps but did not set an API key!
+2023-10-10 15:42:07,067 [ERROR] sfp_googlesearch.py:93 : You enabled sfp_googlesearch but did not set a Google API key!
+2023-10-10 15:42:07,067 [ERROR] sfp_grayhatwarfare.py:140 : You enabled sfp_grayhatwarfare but did not set an API key!
+2023-10-10 15:42:28,712 [ERROR] sfp_hybrid_analysis.py:189 : Failed to retrieve content from Hybrid Analysis: Unexpected response status 403
+2023-10-10 15:42:30,703 [ERROR] sfp_koodous.py:89 : Unexpected reply from Koodous: 404
+2023-10-10 15:42:34,859 [ERROR] sfp_jsonwhoiscom.py:162 : You enabled sfp_jsonwhoiscom but did not set an API key!
+2023-10-10 15:42:34,859 [ERROR] sfp_metadefender.py:158 : You enabled sfp_metadefender but did not set an API key!
+2023-10-10 15:42:36,099 [ERROR] sfp_leakix.py:116 : Failed to retrieve content from LeakIX
+2023-10-10 15:42:38,114 [ERROR] sfp_networksdb.py:263 : You enabled sfp_networksdb but did not set an API key!
+2023-10-10 15:42:38,114 [ERROR] sfp_onioncity.py:101 : You enabled sfp_onioncity but did not set a Google API key!
+2023-10-10 15:42:42,787 [ERROR] sflib.py:195 : Failed to connect to https://pdns.daloo.de/search.php?alike=1&q=h4cker.org
+2023-10-10 15:42:44,406 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=h4cker.org
+2023-10-10 15:42:44,847 [ERROR] sfp_shodan.py:186 : You enabled sfp_shodan but did not set an API key!
+2023-10-10 15:42:45,285 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/b79e8b4fdd2c002b2e41935824561277
+2023-10-10 15:42:45,286 [ERROR] sfp_recondev.py:154 : You enabled sfp_recondev but did not set an API key!
+2023-10-10 15:42:48,818 [ERROR] sfp_scylla.py:97 : Syclla.sh is having problems.
+2023-10-10 15:42:51,025 [ERROR] sfp_snov.py:161 : You enabled sfp_snov but did not set a Client ID and/or Client Secret
+2023-10-10 15:42:51,025 [ERROR] sfp_pastebin.py:94 : You enabled sfp_pastebin but did not set a Google API key!
+2023-10-10 15:42:51,026 [ERROR] sfp_projectdiscovery.py:107 : You enabled sfp_projectdiscovery but did not set an API key!
+2023-10-10 15:43:05,282 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/54f12a8265113df82e5f5d33ab641f86
+2023-10-10 15:43:12,281 [ERROR] sfp_tool_whatweb.py:90 : You enabled sfp_tool_whatweb but did not set a path to the tool!
+2023-10-10 15:43:35,192 [ERROR] sfp_spyonweb.py:208 : You enabled sfp_spyonweb but did not set an API key!
+2023-10-10 15:43:35,192 [ERROR] sfp_spyse.py:344 : You enabled sfp_spyse but did not set an API key!
+2023-10-10 15:43:35,192 [ERROR] sfp_tool_nuclei.py:103 : You enabled sfp_tool_nuclei but did not set a path to the tool and/or templates!
+2023-10-10 15:44:56,737 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgdata.s3-ap-south-1.amazonaws.com
+2023-10-10 15:46:11,239 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-test.s3.ap-northeast-2.amazonaws.com
+2023-10-10 15:46:29,245 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-space.s3.ap-northeast-2.amazonaws.com
+2023-10-10 15:46:30,306 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-files.s3.ap-northeast-2.amazonaws.com
+2023-10-10 15:47:56,406 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-prod.s3-ap-northeast-2.amazonaws.com
+2023-10-10 15:49:07,775 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgstage.s3-ap-southeast-1.amazonaws.com
+2023-10-10 15:49:45,338 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorg-stage.s3-ap-southeast-1.amazonaws.com
+2023-10-10 15:50:53,617 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgbeta.s3-ap-northeast-1.amazonaws.com
+2023-10-10 15:51:18,125 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerorgapp.s3-ap-northeast-1.amazonaws.com
+2023-10-10 15:55:52,554 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerdev.s3.ap-northeast-2.amazonaws.com
+2023-10-10 15:56:54,395 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-data.s3.ap-northeast-2.amazonaws.com
+2023-10-10 15:56:54,406 [ERROR] sflib.py:195 : Failed to connect to https://h4cker-prod.s3.ap-northeast-2.amazonaws.com
+2023-10-10 15:57:56,558 [ERROR] sflib.py:195 : Failed to connect to https://h4ckermedia.s3-ap-northeast-2.amazonaws.com
+2023-10-10 15:58:52,535 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerweb.s3-ap-southeast-1.amazonaws.com
+2023-10-10 15:59:17,666 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerdevelopment.s3-ap-southeast-1.amazonaws.com
+2023-10-10 16:01:11,723 [ERROR] sflib.py:195 : Failed to connect to https://h4ckerbucket.s3-ap-northeast-1.amazonaws.com
+2023-10-10 16:03:57,146 [ERROR] sfp_tool_testsslsh.py:95 : You enabled sfp_tool_testsslsh but did not set a path to the tool!
+2023-10-10 16:03:57,146 [ERROR] sfp_whatcms.py:201 : You enabled sfp_whatcms but did not set an API key!
+2023-10-10 16:03:57,146 [ERROR] sfp_tool_cmseek.py:90 : You enabled sfp_tool_cmseek but did not set a path to the tool!
+2023-10-10 16:03:57,221 [ERROR] sfp_tool_snallygaster.py:92 : You enabled sfp_tool_snallygaster but did not set a path to the tool!
+2023-10-10 16:03:57,772 [ERROR] sfp_tool_wafw00f.py:81 : You enabled sfp_tool_wafw00f but did not set a path to the tool!
+2023-10-10 16:03:58,037 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on h4cker.org: module 'whois' has no attribute 'whois'
+2023-10-10 16:03:58,037 [ERROR] sfp_whois.py:115 : No WHOIS record for h4cker.org
+2023-10-10 16:03:58,037 [ERROR] sfp_tool_wappalyzer.py:82 : You enabled sfp_tool_wappalyzer but did not set a path to the tool!
+2023-10-10 16:03:58,076 [ERROR] sflib.py:195 : Failed to connect to http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/
+2023-10-10 16:03:58,513 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=h4cker.org
+2023-10-10 16:03:58,520 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-10 16:03:58,520 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-10 16:03:58,544 [ERROR] sfp_tool_dnstwist.py:97 : You enabled sfp_tool_dnstwist but did not set a path to the tool!
+2023-10-10 16:04:03,022 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/83e0182295e3ec67643c0729fe29748d
+2023-10-10 16:05:27,527 [ERROR] sfp_tool_onesixtyone.py:102 : You enabled sfp_tool_onesixtyone but did not set a path to the tool!
+2023-10-10 16:05:28,010 [ERROR] sfp_seon.py:147 : You enabled sfp_seon but did not set an API key!
+2023-10-10 16:05:28,010 [ERROR] sfp_tool_nmap.py:117 : You enabled sfp_tool_nmap but did not set a path to the tool!
+2023-10-10 16:05:28,011 [ERROR] sfp_viewdns.py:171 : You enabled sfp_viewdns but did not set an API key!
+2023-10-10 16:05:28,011 [ERROR] sfp_ipregistry.py:153 : You enabled sfp_ipregistry but did not set an API key!
+2023-10-10 16:05:28,011 [ERROR] sfp_onyphe.py:260 : You enabled sfp_onyphe, but did not set an API key!
+2023-10-10 16:05:28,011 [ERROR] sfp_tool_nbtscan.py:87 : You enabled sfp_tool_nbtscan but did not set a path to the tool!
+2023-10-10 16:05:28,011 [ERROR] sfp_bingsharedip.py:100 : You enabled sfp_bingsharedip but did not set a Bing API key!
+2023-10-10 16:05:28,013 [ERROR] sfp_ipapicom.py:117 : You enabled sfp_ipapicom but did not set an API key!
+2023-10-10 16:05:28,689 [ERROR] sfp_neutrinoapi.py:178 : You enabled sfp_neutrinoapi but did not set an API key!
+2023-10-10 16:05:31,388 [ERROR] sfp_iknowwhatyoudownload.py:135 : You enabled sfp_iknowwhatyoudownload but did not set an API key!
+2023-10-10 16:06:48,675 [ERROR] sfp_ipinfo.py:114 : You enabled sfp_ipinfo but did not set an API key!
+2023-10-10 16:06:50,293 [ERROR] sfp_ipstack.py:88 : You enabled sfp_ipstack but did not set an API key!
+2023-10-10 16:06:50,363 [ERROR] sfp_focsec.py:157 : You enabled sfp_focsec but did not set an API key!
+2023-10-10 16:07:05,438 [ERROR] sflib.py:195 : Failed to connect to https://alt4.gmr-smtp-in.l.google.com/
+2023-10-10 16:07:20,511 [ERROR] sflib.py:195 : Failed to connect to http://alt4.gmr-smtp-in.l.google.com/
+2023-10-10 16:07:20,512 [ERROR] sfp_tool_trufflehog.py:82 : You enabled sfp_tool_trufflehog but did not set a path to the tool!
+2023-10-10 16:07:21,555 [ERROR] sfp_tool_retirejs.py:87 : You enabled sfp_tool_retirejs but did not set a path to the tool!
+2023-10-10 16:07:23,227 [ERROR] sfp_sociallinks.py:152 : You enabled sfp_sociallinks but did not set an API key!
+2023-10-10 16:07:39,712 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=lab.h4cker.org
+2023-10-10 16:07:41,189 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/f372e1a6a6508eaac9f353b49d24aafe
+2023-10-10 16:10:25,682 [ERROR] sfp_focsec.py:157 : You enabled sfp_focsec but did not set an API key!
+2023-10-10 16:10:40,717 [ERROR] sflib.py:195 : Failed to connect to https://alt1.gmr-smtp-in.l.google.com/
+2023-10-10 16:10:55,755 [ERROR] sflib.py:195 : Failed to connect to http://alt1.gmr-smtp-in.l.google.com/
+2023-10-10 16:10:59,122 [ERROR] sfp_opencorporates.py:212 : Warning: You enabled sfp_opencorporates but did not set an API key! Queries will be limited to 50 per day and 200 per month.
+2023-10-10 16:10:59,462 [ERROR] sfp_opencorporates.py:106 : Invalid OpenCorporates API key.
+2023-10-10 16:11:05,725 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=lpb.h4cker.org
+2023-10-10 16:11:06,799 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/7b36723256995424a2e37e709679ae8a
+2023-10-10 16:13:27,103 [ERROR] sflib.py:195 : Failed to connect to https://alt3.gmr-smtp-in.l.google.com/
+2023-10-10 16:13:42,150 [ERROR] sflib.py:195 : Failed to connect to http://alt3.gmr-smtp-in.l.google.com/
+2023-10-10 16:13:50,266 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=backdoor.h4cker.org
+2023-10-10 16:13:51,251 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/983c504889017e9a2ea658a4e8d02c36
+2023-10-10 16:14:06,725 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on github.com: module 'whois' has no attribute 'whois'
+2023-10-10 16:14:06,725 [ERROR] sfp_whois.py:115 : No WHOIS record for github.com
+2023-10-10 16:15:00,828 [ERROR] sflib.py:195 : Failed to connect to https://freeapi.robtex.com/ipquery/185.199.108.153
+2023-10-10 16:15:06,163 [ERROR] sflib.py:195 : Failed to connect to https://freeapi.robtex.com/ipquery/185.199.108.153
+2023-10-10 16:15:11,303 [ERROR] sflib.py:195 : Failed to connect to https://freeapi.robtex.com/ipquery/185.199.108.153
+2023-10-10 16:15:11,303 [ERROR] sfp_robtex.py:176 : No reply from robtex API.
+2023-10-10 16:16:49,565 [ERROR] sflib.py:195 : Failed to connect to https://ns-cloud-c1.googledomains.com/
+2023-10-10 16:17:04,706 [ERROR] sflib.py:195 : Failed to connect to http://ns-cloud-c1.googledomains.com/
+2023-10-10 16:17:12,735 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=web.h4cker.org
+2023-10-10 16:17:14,580 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/df3839e518f9eba814a37d4dfe5a7cec
+2023-10-10 16:17:56,578 [ERROR] sfp_wikipediaedits.py:109 : Error processing response from Wikipedia: 'HTMLParser' object has no attribute 'unescape'
+2023-10-10 16:18:11,724 [ERROR] sflib.py:195 : Failed to connect to https://ns-cloud-c2.googledomains.com/
+2023-10-10 16:18:26,815 [ERROR] sflib.py:195 : Failed to connect to http://ns-cloud-c2.googledomains.com/
+2023-10-10 16:18:35,680 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=portal.h4cker.org
+2023-10-10 16:18:36,859 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/3adabc917781e70c282708c8d614af9b
+2023-10-10 16:18:57,874 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on hacker.org: module 'whois' has no attribute 'whois'
+2023-10-10 16:18:57,875 [ERROR] sfp_whois.py:115 : No WHOIS record for hacker.org
+2023-10-10 16:19:12,984 [ERROR] sflib.py:195 : Failed to connect to https://gmr-smtp-in.l.google.com/
+2023-10-10 16:19:28,063 [ERROR] sflib.py:195 : Failed to connect to http://gmr-smtp-in.l.google.com/
+2023-10-10 16:19:28,795 [ERROR] sfp_wigle.py:198 : Invalid API key for sfp_wigle module
+2023-10-10 16:19:36,798 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=webapps.h4cker.org
+2023-10-10 16:19:36,921 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=webapps.h4cker.org
+2023-10-10 16:19:37,548 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/e9496582ab9f1021924870ec7c2b9438
+2023-10-10 16:19:59,944 [ERROR] sflib.py:195 : Failed to connect to https://ns-cloud-c4.googledomains.com/
+2023-10-10 16:20:14,981 [ERROR] sflib.py:195 : Failed to connect to http://ns-cloud-c4.googledomains.com/
+2023-10-10 16:20:30,158 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=store.h4cker.org
+2023-10-10 16:20:30,252 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=store.h4cker.org
+2023-10-10 16:20:30,699 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/86391f738b68f81029c75aaad4746d02
+2023-10-10 16:20:40,265 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on githubusercontent.com: module 'whois' has no attribute 'whois'
+2023-10-10 16:20:40,265 [ERROR] sfp_whois.py:115 : No WHOIS record for githubusercontent.com
+2023-10-10 16:20:55,425 [ERROR] sflib.py:195 : Failed to connect to https://alt2.gmr-smtp-in.l.google.com/
+2023-10-10 16:21:10,502 [ERROR] sflib.py:195 : Failed to connect to http://alt2.gmr-smtp-in.l.google.com/
+2023-10-10 16:21:17,476 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=internal.h4cker.org
+2023-10-10 16:21:17,584 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=internal.h4cker.org
+2023-10-10 16:21:17,994 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/2833096251acc7874c6bca2fb4b7e272
+2023-10-10 16:21:26,351 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on github.io: module 'whois' has no attribute 'whois'
+2023-10-10 16:21:26,351 [ERROR] sfp_whois.py:115 : No WHOIS record for github.io
+2023-10-10 16:21:44,329 [ERROR] sflib.py:195 : Failed to connect to https://ns-cloud-c3.googledomains.com/
+2023-10-10 16:21:59,368 [ERROR] sflib.py:195 : Failed to connect to http://ns-cloud-c3.googledomains.com/
+2023-10-10 16:22:10,852 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=mail.h4cker.org
+2023-10-10 16:22:10,927 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=mail.h4cker.org
+2023-10-10 16:22:11,262 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/584519615e371d857824786897cf3288
+2023-10-10 16:22:32,756 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=malicious.h4cker.org
+2023-10-10 16:22:32,853 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=malicious.h4cker.org
+2023-10-10 16:22:33,651 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/f4d22f1d517b4b532ba8471957418c65
+2023-10-10 16:23:48,233 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=resources.h4cker.org
+2023-10-10 16:23:48,297 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=resources.h4cker.org
+2023-10-10 16:23:48,551 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/0c58c88b223a9fc912b3b929c1e8d719
+2023-10-10 16:25:01,473 [ERROR] sfp_socialprofiles.py:141 : You enabled sfp_socialprofiles but did not set a Google or Bing API key!
+2023-10-10 16:25:09,043 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=certs.h4cker.org
+2023-10-10 16:25:09,122 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=certs.h4cker.org
+2023-10-10 16:25:09,358 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/97c2dec5e111cd0e607128c516a973e1
+2023-10-10 16:27:20,887 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=defcon.h4cker.org
+2023-10-10 16:27:20,983 [ERROR] sflib.py:195 : Failed to connect to http://the.earth.li:11371/pks/lookup?op=index&search=defcon.h4cker.org
+2023-10-10 16:27:21,494 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/f059527542d7addd6c6f2d08d63cb218
+2023-10-10 16:28:00,358 [ERROR] sfp_intelx.py:199 : You enabled sfp_intelx but did not set an API key and/or base URL!
+2023-10-10 16:28:36,815 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=bootcamp.h4cker.org
+2023-10-10 16:31:17,015 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=websploit.h4cker.org
+2023-10-10 16:31:53,318 [ERROR] sfp_intelx.py:199 : You enabled sfp_intelx but did not set an API key and/or base URL!
+2023-10-10 16:31:55,151 [ERROR] sfp_builtwith.py:123 : Error processing JSON response from builtwith.com: 'Results'
+2023-10-10 16:34:43,684 [ERROR] sflib.py:195 : Failed to connect to http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/

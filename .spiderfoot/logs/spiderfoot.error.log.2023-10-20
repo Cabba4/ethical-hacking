@@ -1,0 +1,1171 @@
+2023-10-20 07:38:25,348 [ERROR] sfp_accounts.py:93 : Unable to parse social media accounts list: Extra data: line 1 column 4 (char 3)
+2023-10-20 07:38:33,515 [ERROR] sfp_pulsedive.py:156 : You enabled sfp_pulsedive but did not set an API key!
+2023-10-20 07:38:33,657 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/baafb60c5b917e1a938e55449b9403ec
+2023-10-20 07:38:33,658 [ERROR] sfp_riskiq.py:168 : You enabled sfp_riskiq but did not set an credentials!
+2023-10-20 07:38:34,411 [ERROR] sfp_virustotal.py:182 : You enabled sfp_virustotal but did not set an API key!
+2023-10-20 07:38:34,411 [ERROR] sfp_customfeed.py:185 : You enabled sfp_customfeed but defined no custom feed URL!
+2023-10-20 07:38:34,752 [ERROR] sfp_abusix.py:185 : You enabled sfp_abusix but did not set an API key!
+2023-10-20 07:38:35,849 [ERROR] sfp_snov.py:161 : You enabled sfp_snov but did not set a Client ID and/or Client Secret
+2023-10-20 07:38:36,391 [ERROR] sfp_spyonweb.py:208 : You enabled sfp_spyonweb but did not set an API key!
+2023-10-20 07:38:36,391 [ERROR] sfp_alienvault.py:262 : You enabled sfp_alienvault but did not set an API key!
+2023-10-20 07:38:39,810 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=ctf.wpk.tpu.fi
+2023-10-20 07:38:39,812 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-20 07:38:39,812 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-20 07:38:40,600 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=ctf.wpk.tpu.fi
+2023-10-20 07:38:41,429 [ERROR] sfp_commoncrawl.py:95 : CommonCrawl index collection doesn't seem to be available.
+2023-10-20 07:38:41,429 [ERROR] sfp_commoncrawl.py:153 : Unable to fetch CommonCrawl index.
+2023-10-20 07:38:41,430 [ERROR] sfp_spyse.py:344 : You enabled sfp_spyse but did not set an API key!
+2023-10-20 07:38:41,539 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=193.167.167.56
+2023-10-20 07:38:41,541 [ERROR] sfp_fsecure_riddler.py:179 : You enabled sfp_fsecure_riddler but did not set an API username/password!
+2023-10-20 07:38:41,541 [ERROR] sfp_circllu.py:149 : You enabled sfp_circllu but did not set an credentials!
+2023-10-20 07:38:41,541 [ERROR] sfp_googlesafebrowsing.py:179 : You enabled sfp_googlesafebrowsing but did not set an API key!
+2023-10-20 07:38:42,047 [ERROR] sfp_trashpanda.py:124 : You enabled sfp_trashpanda but did not set an API username / password!
+2023-10-20 07:38:42,165 [ERROR] sfp_googlesearch.py:93 : You enabled sfp_googlesearch but did not set a Google API key!
+2023-10-20 07:38:42,165 [ERROR] sfp_zetalytics.py:190 : You enabled sfp_zetalytics but did not set an API key!
+2023-10-20 07:38:42,512 [ERROR] sfp_malwarepatrol.py:126 : You enabled sfp_malwarepatrol but did not provide a receipt ID!
+2023-10-20 07:38:42,556 [ERROR] sfp_bingsearch.py:86 : You enabled sfp_bingsearch but did not set a Bing API key!
+2023-10-20 07:38:42,666 [ERROR] sfp_intelx.py:199 : You enabled sfp_intelx but did not set an API key and/or base URL!
+2023-10-20 07:38:44,919 [ERROR] sfp_networksdb.py:263 : You enabled sfp_networksdb but did not set an API key!
+2023-10-20 07:38:45,328 [ERROR] sfp_metadefender.py:158 : You enabled sfp_metadefender but did not set an API key!
+2023-10-20 07:38:45,775 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=ctf.wpk.tpu.fi
+2023-10-20 07:38:46,932 [ERROR] sfp_pastebin.py:94 : You enabled sfp_pastebin but did not set a Google API key!
+2023-10-20 07:38:47,039 [ERROR] sfp_honeypot.py:197 : You enabled sfp_honeypot but did not set an API key!
+2023-10-20 07:38:47,286 [ERROR] sfp_ipinfo.py:114 : You enabled sfp_ipinfo but did not set an API key!
+2023-10-20 07:38:47,410 [ERROR] sfp_phishtank.py:104 : Unexpected HTTP response code 404 from phishtank.com.
+2023-10-20 07:38:49,975 [ERROR] sfp_xforce.py:211 : You enabled sfp_xforce but did not set an API key/password!
+2023-10-20 07:38:51,686 [ERROR] sfp_greynoise.py:173 : You enabled sfp_greynoise but did not set an API key!
+2023-10-20 07:38:51,686 [ERROR] sfp_badpackets.py:166 : You enabled sfp_badpackets but did not set an API key!
+2023-10-20 07:38:51,686 [ERROR] sfp_ipapicom.py:117 : You enabled sfp_ipapicom but did not set an API key!
+2023-10-20 07:38:51,686 [ERROR] sfp_iknowwhatyoudownload.py:135 : You enabled sfp_iknowwhatyoudownload but did not set an API key!
+2023-10-20 07:38:51,687 [ERROR] sfp_ipqualityscore.py:166 : You enabled sfp_ipqualityscore but did not set an API Key!
+2023-10-20 07:38:53,416 [ERROR] sfp_abstractapi.py:227 : You enabled sfp_abstractapi but did not set any API keys!
+2023-10-20 07:38:53,416 [ERROR] sfp_spur.py:147 : You enabled sfp_spur but did not set an API key!
+2023-10-20 07:38:53,416 [ERROR] sfp_seon.py:147 : You enabled sfp_seon but did not set an API key!
+2023-10-20 07:38:53,416 [ERROR] sfp_dnsdb.py:159 : You enabled sfp_dnsdb but did not set an API key!
+2023-10-20 07:38:53,416 [ERROR] sfp_onyphe.py:260 : You enabled sfp_onyphe, but did not set an API key!
+2023-10-20 07:38:53,861 [ERROR] sfp_ipregistry.py:153 : You enabled sfp_ipregistry but did not set an API key!
+2023-10-20 07:38:54,185 [ERROR] sfp_ipstack.py:88 : You enabled sfp_ipstack but did not set an API key!
+2023-10-20 07:38:54,456 [ERROR] sfp_focsec.py:157 : You enabled sfp_focsec but did not set an API key!
+2023-10-20 07:38:54,456 [ERROR] sfp_securitytrails.py:159 : You enabled sfp_securitytrails but did not set an API uid/secret!
+2023-10-20 07:38:56,628 [ERROR] sfp_neutrinoapi.py:178 : You enabled sfp_neutrinoapi but did not set an API key!
+2023-10-20 07:38:56,628 [ERROR] sfp_c99.py:401 : You enabled sfp_c99, but did not set an API key!
+2023-10-20 07:38:58,176 [ERROR] sfp_abuseipdb.py:286 : You enabled sfp_abuseipdb but did not set an API key!
+2023-10-20 07:38:58,456 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.fi: module 'whois' has no attribute 'whois'
+2023-10-20 07:38:58,456 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.fi
+2023-10-20 07:38:58,536 [ERROR] sfp_shodan.py:186 : You enabled sfp_shodan but did not set an API key!
+2023-10-20 07:39:03,426 [ERROR] sfp_hybrid_analysis.py:189 : Failed to retrieve content from Hybrid Analysis: Unexpected response status 403
+2023-10-20 07:39:03,719 [ERROR] sfp_bingsharedip.py:100 : You enabled sfp_bingsharedip but did not set a Bing API key!
+2023-10-20 07:39:04,998 [ERROR] sfp_leakix.py:116 : Failed to retrieve content from LeakIX
+2023-10-20 07:39:04,998 [ERROR] sfp_binaryedge.py:198 : You enabled sfp_binaryedge but did not set an API key!
+2023-10-20 07:39:04,998 [ERROR] sfp_viewdns.py:171 : You enabled sfp_viewdns but did not set an API key!
+2023-10-20 07:39:05,188 [ERROR] sfp_talosintel.py:127 : Unexpected HTTP response code 403 from Talos Intelligence.
+2023-10-20 07:39:05,498 [ERROR] sfp_censys.py:200 : You enabled sfp_censys but did not set an API uid/secret!
+2023-10-20 07:39:05,748 [ERROR] sfp_botscout.py:113 : No response from BotScout.
+2023-10-20 07:39:07,403 [ERROR] sfp_fraudguard.py:170 : You enabled sfp_fraudguard but did not set an API username/password!
+2023-10-20 07:39:12,108 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=ns1.tuni.fi
+2023-10-20 07:39:13,629 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=mail.tuni.fi
+2023-10-20 07:39:14,183 [ERROR] sfp_wigle.py:198 : Invalid API key for sfp_wigle module
+2023-10-20 07:39:14,599 [ERROR] sfp_googlemaps.py:111 : You enabled sfp_googlemaps but did not set an API key!
+2023-10-20 07:39:16,170 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/991f42a74df7affd766f695efec57676
+2023-10-20 07:39:16,251 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=mail2.tuni.fi
+2023-10-20 07:39:18,892 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=pc167-56.guest.tpu.fi
+2023-10-20 07:39:18,894 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-20 07:39:18,894 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-20 07:39:19,602 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=mail1.tuni.fi
+2023-10-20 07:39:20,381 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=pc167-56.guest.tpu.fi
+2023-10-20 07:39:21,764 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=ns-secondary.funet.fi
+2023-10-20 07:39:23,996 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=ns2.tuni.fi
+2023-10-20 07:39:26,906 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tuni.fi: module 'whois' has no attribute 'whois'
+2023-10-20 07:39:26,906 [ERROR] sfp_whois.py:115 : No WHOIS record for tuni.fi
+2023-10-20 07:39:35,990 [ERROR] sfp_jsonwhoiscom.py:162 : You enabled sfp_jsonwhoiscom but did not set an API key!
+2023-10-20 07:39:41,370 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on funet.fi: module 'whois' has no attribute 'whois'
+2023-10-20 07:39:41,370 [ERROR] sfp_whois.py:115 : No WHOIS record for funet.fi
+2023-10-20 07:39:45,388 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=pc167-56.guest.tpu.fi
+2023-10-20 07:39:50,318 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=193.166.164.164
+2023-10-20 07:39:51,227 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=193.166.164.157
+2023-10-20 07:39:52,035 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=193.166.164.156
+2023-10-20 07:39:52,975 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=128.214.248.132
+2023-10-20 07:39:53,710 [ERROR] sflib.py:195 : Failed to connect to https://www.threatcrowd.org/searchApi/v2/ip/report/?ip=193.166.164.165
+2023-10-20 09:31:11,734 [ERROR] sfwebui.py:1411 : [-] Scan [E70F02A4] failed: [Errno 5] Input/output error
+2023-10-20 09:31:18,700 [ERROR] sfwebui.py:1411 : [-] Scan [34FE3307] failed: [Errno 5] Input/output error
+2023-10-20 09:31:29,663 [ERROR] sfwebui.py:1411 : [-] Scan [51C8DC7F] failed: [Errno 5] Input/output error
+2023-10-20 09:32:17,412 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-20 09:32:30,242 [ERROR] sfwebui.py:1411 : [-] Scan [B8FBF705] failed: [Errno 5] Input/output error
+2023-10-20 09:32:50,842 [ERROR] sfwebui.py:1411 : [-] Scan [94CE81B6] failed: [Errno 5] Input/output error
+2023-10-20 09:32:54,935 [ERROR] sfwebui.py:1411 : [-] Scan [607026A1] failed: [Errno 5] Input/output error
+2023-10-20 09:34:42,793 [WARNING] sf.py:550 : 
+********************************************************************
+Warning: passwd file contains no passwords. Authentication disabled.
+Please consider adding authentication to protect this instance!
+Refer to https://www.spiderfoot.net/documentation/#security.
+********************************************************************
+
+2023-10-20 09:35:38,760 [ERROR] sfp_accounts.py:93 : Unable to parse social media accounts list: Extra data: line 1 column 4 (char 3)
+2023-10-20 09:35:51,847 [ERROR] sfp_bingsearch.py:86 : You enabled sfp_bingsearch but did not set a Bing API key!
+2023-10-20 09:35:52,547 [ERROR] sfp_commoncrawl.py:95 : CommonCrawl index collection doesn't seem to be available.
+2023-10-20 09:35:52,548 [ERROR] sfp_commoncrawl.py:153 : Unable to fetch CommonCrawl index.
+2023-10-20 09:35:53,723 [ERROR] sfp_fsecure_riddler.py:179 : You enabled sfp_fsecure_riddler but did not set an API username/password!
+2023-10-20 09:36:10,863 [ERROR] sfp_googlesearch.py:93 : You enabled sfp_googlesearch but did not set a Google API key!
+2023-10-20 09:36:11,322 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=ctf.wpk.tpu.fi
+2023-10-20 09:36:11,742 [ERROR] sfp_metadefender.py:158 : You enabled sfp_metadefender but did not set an API key!
+2023-10-20 09:36:14,092 [ERROR] sfp_pastebin.py:94 : You enabled sfp_pastebin but did not set a Google API key!
+2023-10-20 09:36:14,092 [ERROR] sfp_networksdb.py:263 : You enabled sfp_networksdb but did not set an API key!
+2023-10-20 09:36:14,092 [ERROR] sfp_onioncity.py:101 : You enabled sfp_onioncity but did not set a Google API key!
+2023-10-20 09:36:14,251 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/baafb60c5b917e1a938e55449b9403ec
+2023-10-20 09:36:15,088 [ERROR] sfp_snov.py:161 : You enabled sfp_snov but did not set a Client ID and/or Client Secret
+2023-10-20 09:36:22,214 [ERROR] sflib.py:195 : Failed to connect to https://pgp.key-server.io/pks/lookup?fingerprint=on&op=vindex&search=pc167-56.guest.tpu.fi
+2023-10-20 09:36:25,158 [ERROR] sflib.py:195 : Failed to connect to https://api.punkspider.org/api/partial-hash/991f42a74df7affd766f695efec57676
+2023-10-20 09:36:25,882 [ERROR] sfp_spyonweb.py:208 : You enabled sfp_spyonweb but did not set an API key!
+2023-10-20 09:36:25,882 [ERROR] sfp_spyse.py:344 : You enabled sfp_spyse but did not set an API key!
+2023-10-20 09:36:26,185 [ERROR] sfp_tool_cmseek.py:90 : You enabled sfp_tool_cmseek but did not set a path to the tool!
+2023-10-20 09:36:28,293 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=ctf.wpk.tpu.fi
+2023-10-20 09:36:28,294 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-20 09:36:28,294 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-20 09:36:28,294 [ERROR] sfp_tool_nuclei.py:103 : You enabled sfp_tool_nuclei but did not set a path to the tool and/or templates!
+2023-10-20 09:36:28,294 [ERROR] sfp_tool_snallygaster.py:92 : You enabled sfp_tool_snallygaster but did not set a path to the tool!
+2023-10-20 09:36:28,294 [ERROR] sfp_tool_testsslsh.py:95 : You enabled sfp_tool_testsslsh but did not set a path to the tool!
+2023-10-20 09:36:28,294 [ERROR] sfp_tool_wappalyzer.py:82 : You enabled sfp_tool_wappalyzer but did not set a path to the tool!
+2023-10-20 09:36:28,294 [ERROR] sfp_tool_whatweb.py:90 : You enabled sfp_tool_whatweb but did not set a path to the tool!
+2023-10-20 09:36:28,294 [ERROR] sfp_tool_wafw00f.py:81 : You enabled sfp_tool_wafw00f but did not set a path to the tool!
+2023-10-20 09:36:28,789 [ERROR] sfp_bingsharedip.py:100 : You enabled sfp_bingsharedip but did not set a Bing API key!
+2023-10-20 09:36:29,115 [ERROR] sfp_c99.py:401 : You enabled sfp_c99, but did not set an API key!
+2023-10-20 09:36:29,116 [ERROR] sfp_dnsdb.py:159 : You enabled sfp_dnsdb but did not set an API key!
+2023-10-20 09:36:31,727 [ERROR] sfp_focsec.py:157 : You enabled sfp_focsec but did not set an API key!
+2023-10-20 09:36:33,095 [ERROR] sfp_hybrid_analysis.py:189 : Failed to retrieve content from Hybrid Analysis: Unexpected response status 403
+2023-10-20 09:36:33,096 [ERROR] sfp_iknowwhatyoudownload.py:135 : You enabled sfp_iknowwhatyoudownload but did not set an API key!
+2023-10-20 09:36:34,936 [ERROR] sfp_ipapicom.py:117 : You enabled sfp_ipapicom but did not set an API key!
+2023-10-20 09:36:34,936 [ERROR] sfp_ipstack.py:88 : You enabled sfp_ipstack but did not set an API key!
+2023-10-20 09:36:34,936 [ERROR] sfp_ipinfo.py:114 : You enabled sfp_ipinfo but did not set an API key!
+2023-10-20 09:36:34,936 [ERROR] sfp_ipregistry.py:153 : You enabled sfp_ipregistry but did not set an API key!
+2023-10-20 09:36:34,936 [ERROR] sfp_onyphe.py:260 : You enabled sfp_onyphe, but did not set an API key!
+2023-10-20 09:36:58,120 [ERROR] sflib.py:195 : Failed to connect to https://api.sublist3r.com/search.php?domain=pc167-56.guest.tpu.fi
+2023-10-20 09:36:58,121 [ERROR] sfp_sublist3r.py:71 : Error querying Sublist3r API
+2023-10-20 09:36:58,122 [ERROR] sfp_sublist3r.py:74 : Bad response code "None" from Sublist3r API
+2023-10-20 09:37:09,259 [ERROR] sfp_leakix.py:116 : Failed to retrieve content from LeakIX
+2023-10-20 09:37:09,259 [ERROR] sfp_neutrinoapi.py:178 : You enabled sfp_neutrinoapi but did not set an API key!
+2023-10-20 09:37:09,628 [ERROR] sfp_tool_nbtscan.py:87 : You enabled sfp_tool_nbtscan but did not set a path to the tool!
+2023-10-20 09:37:09,630 [ERROR] sfp_shodan.py:186 : You enabled sfp_shodan but did not set an API key!
+2023-10-20 09:37:09,632 [ERROR] sfp_seon.py:147 : You enabled sfp_seon but did not set an API key!
+2023-10-20 09:37:09,633 [ERROR] sfp_tool_onesixtyone.py:102 : You enabled sfp_tool_onesixtyone but did not set a path to the tool!
+2023-10-20 09:37:09,633 [ERROR] sfp_tool_nmap.py:117 : You enabled sfp_tool_nmap but did not set a path to the tool!
+2023-10-20 09:37:09,634 [ERROR] sfp_abstractapi.py:227 : You enabled sfp_abstractapi but did not set any API keys!
+2023-10-20 09:37:09,634 [ERROR] sfp_viewdns.py:171 : You enabled sfp_viewdns but did not set an API key!
+2023-10-20 09:37:09,753 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.fi: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:09,753 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.fi
+2023-10-20 09:37:09,753 [ERROR] sfp_binaryedge.py:198 : You enabled sfp_binaryedge but did not set an API key!
+2023-10-20 09:37:10,120 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ai: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:10,120 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ai
+2023-10-20 09:37:11,783 [ERROR] sfp_tool_retirejs.py:87 : You enabled sfp_tool_retirejs but did not set a path to the tool!
+2023-10-20 09:37:12,920 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tuni.fi: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:12,920 [ERROR] sfp_whois.py:115 : No WHOIS record for tuni.fi
+2023-10-20 09:37:24,950 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.ai', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c0e51d0>, 'Connection to tpu.ai timed out. (connect timeout=5)'))) occurred fetching (HEAD only) URL: http://tpu.ai
+2023-10-20 09:37:25,021 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f7f8c0e51d0>, 'Connection to tpu.ai timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.ai', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c0e51d0>, 'Connection to tpu.ai timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tpu.ai', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c0e51d0>, 'Connection to tpu.ai timed out. (connect timeout=5)'))
+
+2023-10-20 09:37:25,023 [ERROR] sfp_jsonwhoiscom.py:162 : You enabled sfp_jsonwhoiscom but did not set an API key!
+2023-10-20 09:37:25,290 [ERROR] sflib.py:195 : Failed to connect to https://ns1.tuni.fi/
+2023-10-20 09:37:25,499 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.at: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:25,499 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.at
+2023-10-20 09:37:28,422 [ERROR] sfp_wigle.py:198 : Invalid API key for sfp_wigle module
+2023-10-20 09:37:28,423 [ERROR] sfp_googlemaps.py:111 : You enabled sfp_googlemaps but did not set an API key!
+2023-10-20 09:37:31,000 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on funet.fi: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:31,000 [ERROR] sfp_whois.py:115 : No WHOIS record for funet.fi
+2023-10-20 09:37:32,235 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com.au: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:32,235 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com.au
+2023-10-20 09:37:33,463 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.au: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:33,463 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.au
+2023-10-20 09:37:34,912 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.be: module 'whois' has no attribute 'whois'
+2023-10-20 09:37:34,912 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.be
+2023-10-20 09:37:39,860 [ERROR] sfp_filemeta.py:99 : Strange content encountered, size of 178
+2023-10-20 09:37:40,342 [ERROR] sflib.py:195 : Failed to connect to http://ns1.tuni.fi/
+2023-10-20 09:37:41,219 [ERROR] sflib.py:195 : Failed to connect to https://ns-secondary.funet.fi/
+2023-10-20 09:37:41,328 [ERROR] sflib.py:195 : Failed to connect to http://ns-secondary.funet.fi/
+2023-10-20 09:37:52,844 [ERROR] sfp_filemeta.py:99 : Strange content encountered, size of 178
+2023-10-20 09:37:56,539 [ERROR] sflib.py:195 : Failed to connect to https://ns2.tuni.fi/
+2023-10-20 09:38:03,766 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tamk.fi: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:03,766 [ERROR] sfp_whois.py:115 : No WHOIS record for tamk.fi
+2023-10-20 09:38:11,559 [ERROR] sflib.py:195 : Failed to connect to http://ns2.tuni.fi/
+2023-10-20 09:38:23,257 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ch: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:23,258 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ch
+2023-10-20 09:38:26,622 [ERROR] sflib.py:195 : Failed to connect to https://mail1.tuni.fi/
+2023-10-20 09:38:26,836 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.cl: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:26,836 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.cl
+2023-10-20 09:38:40,406 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com.cn: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:40,406 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com.cn
+2023-10-20 09:38:41,653 [ERROR] sflib.py:195 : Failed to connect to http://mail1.tuni.fi/
+2023-10-20 09:38:52,068 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:52,068 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com
+2023-10-20 09:38:56,753 [ERROR] sflib.py:195 : Failed to connect to https://mail2.tuni.fi/
+2023-10-20 09:38:57,083 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.dk: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:57,083 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.dk
+2023-10-20 09:38:58,132 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.cz: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:58,132 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.cz
+2023-10-20 09:38:58,185 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.de: module 'whois' has no attribute 'whois'
+2023-10-20 09:38:58,186 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.de
+2023-10-20 09:39:11,814 [ERROR] sflib.py:195 : Failed to connect to http://mail2.tuni.fi/
+2023-10-20 09:39:16,267 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.es: module 'whois' has no attribute 'whois'
+2023-10-20 09:39:16,267 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.es
+2023-10-20 09:39:20,014 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.eu: module 'whois' has no attribute 'whois'
+2023-10-20 09:39:20,014 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.eu
+2023-10-20 09:39:27,156 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.fr: module 'whois' has no attribute 'whois'
+2023-10-20 09:39:27,156 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.fr
+2023-10-20 09:39:41,034 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com.hk: module 'whois' has no attribute 'whois'
+2023-10-20 09:39:41,034 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com.hk
+2023-10-20 09:39:41,905 [ERROR] sflib.py:195 : Failed to connect to https://mail.tuni.fi/
+2023-10-20 09:40:03,683 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.in: module 'whois' has no attribute 'whois'
+2023-10-20 09:40:03,683 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.in
+2023-10-20 09:40:10,073 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.info: module 'whois' has no attribute 'whois'
+2023-10-20 09:40:10,073 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.info
+2023-10-20 09:40:11,952 [ERROR] sflib.py:195 : Failed to connect to http://mail.tuni.fi/
+2023-10-20 09:40:12,613 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ir: module 'whois' has no attribute 'whois'
+2023-10-20 09:40:12,613 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ir
+2023-10-20 09:40:26,988 [ERROR] sflib.py:195 : Failed to connect to https://pc167-48.guest.tpu.fi/
+2023-10-20 09:40:42,025 [ERROR] sflib.py:195 : Failed to connect to http://pc167-48.guest.tpu.fi/
+2023-10-20 09:40:47,945 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.co.jp: module 'whois' has no attribute 'whois'
+2023-10-20 09:40:47,945 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.co.jp
+2023-10-20 09:40:53,296 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.co.jp', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c4f3650>, 'Connection to tpu.co.jp timed out. (connect timeout=5)'))) occurred fetching (HEAD only) URL: http://tpu.co.jp
+2023-10-20 09:40:53,301 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f7f8c4f3650>, 'Connection to tpu.co.jp timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.co.jp', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c4f3650>, 'Connection to tpu.co.jp timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tpu.co.jp', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c4f3650>, 'Connection to tpu.co.jp timed out. (connect timeout=5)'))
+
+2023-10-20 09:40:53,302 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ac.jp: module 'whois' has no attribute 'whois'
+2023-10-20 09:40:53,302 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ac.jp
+2023-10-20 09:40:57,067 [ERROR] sflib.py:195 : Failed to connect to https://pc167-49.guest.tpu.fi/
+2023-10-20 09:40:58,905 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.ac.jp', port=80): Read timed out. (read timeout=5)) occurred fetching (HEAD only) URL: http://tpu.ac.jp
+2023-10-20 09:40:58,933 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/six.py", line 719, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 469, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 358, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='tpu.ac.jp', port=80): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='tpu.ac.jp', port=80): Read timed out. (read timeout=5)
+
+2023-10-20 09:41:12,100 [ERROR] sflib.py:195 : Failed to connect to http://pc167-49.guest.tpu.fi/
+2023-10-20 09:41:27,182 [ERROR] sflib.py:195 : Failed to connect to https://pc167-50.guest.tpu.fi/
+2023-10-20 09:41:42,206 [ERROR] sflib.py:195 : Failed to connect to http://pc167-50.guest.tpu.fi/
+2023-10-20 09:41:57,271 [ERROR] sflib.py:195 : Failed to connect to https://pc167-51.guest.tpu.fi/
+2023-10-20 09:42:12,314 [ERROR] sflib.py:195 : Failed to connect to http://pc167-51.guest.tpu.fi/
+2023-10-20 09:42:27,374 [ERROR] sflib.py:195 : Failed to connect to https://pc167-52.guest.tpu.fi/
+2023-10-20 09:42:42,405 [ERROR] sflib.py:195 : Failed to connect to http://pc167-52.guest.tpu.fi/
+2023-10-20 09:42:42,442 [ERROR] sflib.py:195 : Failed to connect to https://pc167-53.guest.tpu.fi/
+2023-10-20 09:42:42,463 [ERROR] sflib.py:195 : Failed to connect to http://pc167-53.guest.tpu.fi/
+2023-10-20 09:42:58,081 [ERROR] sflib.py:195 : Failed to connect to https://pc167-57.guest.tpu.fi/
+2023-10-20 09:43:06,184 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.or.kr: module 'whois' has no attribute 'whois'
+2023-10-20 09:43:06,184 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.or.kr
+2023-10-20 09:43:13,107 [ERROR] sflib.py:195 : Failed to connect to http://pc167-57.guest.tpu.fi/
+2023-10-20 09:43:28,673 [ERROR] sflib.py:195 : Failed to connect to https://pc167-60.guest.tpu.fi/
+2023-10-20 09:43:43,698 [ERROR] sflib.py:195 : Failed to connect to http://pc167-60.guest.tpu.fi/
+2023-10-20 09:43:48,048 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.me: module 'whois' has no attribute 'whois'
+2023-10-20 09:43:48,048 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.me
+2023-10-20 09:43:58,746 [ERROR] sflib.py:195 : Failed to connect to https://pc167-61.guest.tpu.fi/
+2023-10-20 09:44:13,768 [ERROR] sflib.py:195 : Failed to connect to http://pc167-61.guest.tpu.fi/
+2023-10-20 09:44:17,214 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.mx: module 'whois' has no attribute 'whois'
+2023-10-20 09:44:17,214 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.mx
+2023-10-20 09:44:17,282 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com.mx: module 'whois' has no attribute 'whois'
+2023-10-20 09:44:17,282 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com.mx
+2023-10-20 09:44:25,160 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.net: module 'whois' has no attribute 'whois'
+2023-10-20 09:44:25,160 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.net
+2023-10-20 09:44:28,837 [ERROR] sflib.py:195 : Failed to connect to https://pc167-62.guest.tpu.fi/
+2023-10-20 09:44:31,679 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.nl: module 'whois' has no attribute 'whois'
+2023-10-20 09:44:31,679 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.nl
+2023-10-20 09:44:31,730 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.no: module 'whois' has no attribute 'whois'
+2023-10-20 09:44:31,730 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.no
+2023-10-20 09:44:43,874 [ERROR] sflib.py:195 : Failed to connect to http://pc167-62.guest.tpu.fi/
+2023-10-20 09:44:58,932 [ERROR] sflib.py:195 : Failed to connect to https://pc167-63.guest.tpu.fi/
+2023-10-20 09:45:13,949 [ERROR] sflib.py:195 : Failed to connect to http://pc167-63.guest.tpu.fi/
+2023-10-20 09:45:54,792 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.org.nz: module 'whois' has no attribute 'whois'
+2023-10-20 09:45:54,792 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.org.nz
+2023-10-20 09:45:56,276 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.org: module 'whois' has no attribute 'whois'
+2023-10-20 09:45:56,276 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.org
+2023-10-20 09:46:12,228 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.pl: module 'whois' has no attribute 'whois'
+2023-10-20 09:46:12,228 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.pl
+2023-10-20 09:46:12,252 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com.pl: module 'whois' has no attribute 'whois'
+2023-10-20 09:46:12,252 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com.pl
+2023-10-20 09:46:42,994 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ru: module 'whois' has no attribute 'whois'
+2023-10-20 09:46:42,994 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ru
+2023-10-20 09:47:04,015 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.se: module 'whois' has no attribute 'whois'
+2023-10-20 09:47:04,015 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.se
+2023-10-20 09:47:07,359 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.sk: module 'whois' has no attribute 'whois'
+2023-10-20 09:47:07,359 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.sk
+2023-10-20 09:48:06,651 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.su: module 'whois' has no attribute 'whois'
+2023-10-20 09:48:06,651 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.su
+2023-10-20 09:48:06,796 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.su', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c4a2410>: Failed to establish a new connection: [Errno 111] Connection refused'))) occurred fetching (HEAD only) URL: http://tpu.su
+2023-10-20 09:48:06,799 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7f8c4a2410>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.su', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c4a2410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tpu.su', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c4a2410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+2023-10-20 09:48:16,554 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ac.th: module 'whois' has no attribute 'whois'
+2023-10-20 09:48:16,554 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ac.th
+2023-10-20 09:48:30,397 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.tw: module 'whois' has no attribute 'whois'
+2023-10-20 09:48:30,397 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.tw
+2023-10-20 09:48:36,748 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.org.ua: module 'whois' has no attribute 'whois'
+2023-10-20 09:48:36,748 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.org.ua
+2023-10-20 09:48:45,747 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.uk: module 'whois' has no attribute 'whois'
+2023-10-20 09:48:45,747 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.uk
+2023-10-20 09:48:46,347 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.co.uk: module 'whois' has no attribute 'whois'
+2023-10-20 09:48:46,347 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.co.uk
+2023-10-20 09:49:25,182 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.uz: module 'whois' has no attribute 'whois'
+2023-10-20 09:49:25,182 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.uz
+2023-10-20 09:49:43,503 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.vn: module 'whois' has no attribute 'whois'
+2023-10-20 09:49:43,503 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.vn
+2023-10-20 09:49:43,817 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.com.vn: module 'whois' has no attribute 'whois'
+2023-10-20 09:49:43,817 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.com.vn
+2023-10-20 09:50:44,051 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.co.za: module 'whois' has no attribute 'whois'
+2023-10-20 09:50:44,051 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.co.za
+2023-10-20 10:01:06,128 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.agency: module 'whois' has no attribute 'whois'
+2023-10-20 10:01:06,128 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.agency
+2023-10-20 10:01:35,718 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.digital: module 'whois' has no attribute 'whois'
+2023-10-20 10:01:35,718 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.digital
+2023-10-20 10:01:49,652 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.global: module 'whois' has no attribute 'whois'
+2023-10-20 10:01:49,652 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.global
+2023-10-20 10:02:08,982 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.lat: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:08,982 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.lat
+2023-10-20 10:02:10,469 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.life: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:10,469 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.life
+2023-10-20 10:02:12,279 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.lol: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:12,279 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.lol
+2023-10-20 10:02:26,724 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ninja: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:26,724 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ninja
+2023-10-20 10:02:29,742 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.online: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:29,742 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.online
+2023-10-20 10:02:42,099 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.rocks: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:42,099 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.rocks
+2023-10-20 10:02:55,942 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.systems: module 'whois' has no attribute 'whois'
+2023-10-20 10:02:55,942 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.systems
+2023-10-20 10:03:22,714 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.网址: module 'whois' has no attribute 'whois'
+2023-10-20 10:03:22,715 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.网址
+2023-10-20 10:03:26,346 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.inf.ua: module 'whois' has no attribute 'whois'
+2023-10-20 10:03:26,346 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.inf.ua
+2023-10-20 10:04:53,646 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.edu.ru: module 'whois' has no attribute 'whois'
+2023-10-20 10:04:53,647 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.edu.ru
+2023-10-20 10:05:36,096 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ddnsfree.com: module 'whois' has no attribute 'whois'
+2023-10-20 10:05:36,096 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ddnsfree.com
+2023-10-20 10:05:41,302 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.ddnsfree.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c492bd0>, 'Connection to tpu.ddnsfree.com timed out. (connect timeout=5)'))) occurred fetching (HEAD only) URL: http://tpu.ddnsfree.com
+2023-10-20 10:05:41,304 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f7f8c492bd0>, 'Connection to tpu.ddnsfree.com timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.ddnsfree.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c492bd0>, 'Connection to tpu.ddnsfree.com timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tpu.ddnsfree.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c492bd0>, 'Connection to tpu.ddnsfree.com timed out. (connect timeout=5)'))
+
+2023-10-20 10:05:44,545 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.edu.eu.org: module 'whois' has no attribute 'whois'
+2023-10-20 10:05:44,545 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.edu.eu.org
+2023-10-20 10:08:25,298 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.jelastic.saveincloud.net: module 'whois' has no attribute 'whois'
+2023-10-20 10:08:25,298 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.jelastic.saveincloud.net
+2023-10-20 10:09:16,421 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.azurewebsites.net: module 'whois' has no attribute 'whois'
+2023-10-20 10:09:16,421 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.azurewebsites.net
+2023-10-20 10:09:21,389 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.azurewebsites.net', port=80): Read timed out. (read timeout=5)) occurred fetching (HEAD only) URL: http://tpu.azurewebsites.net
+2023-10-20 10:09:21,392 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 467, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 462, in _make_request
+    httplib_response = conn.getresponse()
+                       ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/usr/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/six.py", line 719, in reraise
+    raise value
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 469, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 358, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='tpu.azurewebsites.net', port=80): Read timed out. (read timeout=5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='tpu.azurewebsites.net', port=80): Read timed out. (read timeout=5)
+
+2023-10-20 10:09:35,108 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.zapto.org: module 'whois' has no attribute 'whois'
+2023-10-20 10:09:35,108 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.zapto.org
+2023-10-20 10:10:31,368 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.direct.quickconnect.to: module 'whois' has no attribute 'whois'
+2023-10-20 10:10:31,368 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.direct.quickconnect.to
+2023-10-20 10:10:34,396 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.cust.disrec.thingdust.io: module 'whois' has no attribute 'whois'
+2023-10-20 10:10:34,396 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.cust.disrec.thingdust.io
+2023-10-20 10:10:34,448 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.cust.dev.thingdust.io: module 'whois' has no attribute 'whois'
+2023-10-20 10:10:34,448 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.cust.dev.thingdust.io
+2023-10-20 10:10:34,755 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.reservd.disrec.thingdust.io: module 'whois' has no attribute 'whois'
+2023-10-20 10:10:34,756 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.reservd.disrec.thingdust.io
+2023-10-20 10:10:36,563 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.direct.quickconnect.to', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c581750>, 'Connection to tpu.direct.quickconnect.to timed out. (connect timeout=5)'))) occurred fetching (HEAD only) URL: http://tpu.direct.quickconnect.to
+2023-10-20 10:10:36,567 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f7f8c581750>, 'Connection to tpu.direct.quickconnect.to timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.direct.quickconnect.to', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c581750>, 'Connection to tpu.direct.quickconnect.to timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tpu.direct.quickconnect.to', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c581750>, 'Connection to tpu.direct.quickconnect.to timed out. (connect timeout=5)'))
+
+2023-10-20 10:10:36,630 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.cust.disrec.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c001c90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))) occurred fetching (HEAD only) URL: http://tpu.cust.disrec.thingdust.io
+2023-10-20 10:10:36,635 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7f8c001c90>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.cust.disrec.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c001c90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tpu.cust.disrec.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c001c90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+2023-10-20 10:10:36,702 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.cust.dev.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c493a90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))) occurred fetching (HEAD only) URL: http://tpu.cust.dev.thingdust.io
+2023-10-20 10:10:36,707 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7f8c493a90>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.cust.dev.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c493a90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tpu.cust.dev.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c493a90>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+2023-10-20 10:10:36,774 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.reservd.disrec.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c4f31d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))) occurred fetching (HEAD only) URL: http://tpu.reservd.disrec.thingdust.io
+2023-10-20 10:10:36,779 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f7f8c4f31d0>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.reservd.disrec.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c4f31d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='tpu.reservd.disrec.thingdust.io', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7f8c4f31d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+2023-10-20 10:10:36,815 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.dd-dns.de: module 'whois' has no attribute 'whois'
+2023-10-20 10:10:36,815 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.dd-dns.de
+2023-10-20 10:10:42,106 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.dd-dns.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c000250>, 'Connection to tpu.dd-dns.de timed out. (connect timeout=5)'))) occurred fetching (HEAD only) URL: http://tpu.dd-dns.de
+2023-10-20 10:10:42,109 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f7f8c000250>, 'Connection to tpu.dd-dns.de timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.dd-dns.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c000250>, 'Connection to tpu.dd-dns.de timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tpu.dd-dns.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c000250>, 'Connection to tpu.dd-dns.de timed out. (connect timeout=5)'))
+
+2023-10-20 10:11:21,672 [ERROR] sfp_whois.py:112 : Unable to perform WHOIS query on tpu.ynh.fr: module 'whois' has no attribute 'whois'
+2023-10-20 10:11:21,672 [ERROR] sfp_whois.py:115 : No WHOIS record for tpu.ynh.fr
+2023-10-20 10:11:26,692 [ERROR] sflib.py:195 : Unexpected exception (HTTPConnectionPool(host='tpu.ynh.fr', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c57f0d0>, 'Connection to tpu.ynh.fr timed out. (connect timeout=5)'))) occurred fetching (HEAD only) URL: http://tpu.ynh.fr
+2023-10-20 10:11:26,695 [ERROR] sflib.py:195 : Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.11/http/client.py", line 1286, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1332, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1281, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.11/http/client.py", line 1041, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.11/http/client.py", line 979, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f7f8c57f0d0>, 'Connection to tpu.ynh.fr timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tpu.ynh.fr', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c57f0d0>, 'Connection to tpu.ynh.fr timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/share/spiderfoot/sflib.py", line 2174, in fetchUrl
+    hdr = self.getSession().head(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 624, in head
+    return self.request("HEAD", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 507, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tpu.ynh.fr', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f7f8c57f0d0>, 'Connection to tpu.ynh.fr timed out. (connect timeout=5)'))
+
