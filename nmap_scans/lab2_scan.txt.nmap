@@ -1,0 +1,48 @@
+# Nmap 7.94 scan initiated Tue Oct 24 09:12:13 2023 as: nmap -sV -sC -oA lab2_scan.txt -p- 193.167.167.56
+Nmap scan report for pc167-56.guest.tpu.fi (193.167.167.56)
+Host is up (0.012s latency).
+Not shown: 65526 closed tcp ports (conn-refused)
+PORT     STATE    SERVICE    VERSION
+22/tcp   open     ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 3d:84:cc:67:a6:e9:6a:7f:1f:b4:e1:68:e6:62:4e:10 (RSA)
+|   256 03:e2:28:46:ac:e7:b0:f7:91:3e:0d:d0:6a:51:46:a3 (ECDSA)
+|_  256 b8:9c:95:c6:8c:5a:c6:ac:20:f5:74:da:eb:db:ad:cc (ED25519)
+25/tcp   filtered smtp
+80/tcp   open     http       nginx 1.14.0 (Ubuntu)
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Welcome to ?
+443/tcp  open     ssl/http   nginx 1.14.0 (Ubuntu)
+|_ssl-date: TLS randomness does not represent time
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Welcome to ?
+| ssl-cert: Subject: commonName=ctf.wpk.tpu.fi
+| Subject Alternative Name: DNS:ctf.wpk.tpu.fi
+| Not valid before: 2023-09-07T17:40:30
+|_Not valid after:  2023-12-06T17:40:29
+2000/tcp open     tcpwrapped
+2222/tcp open     ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 3d:84:cc:67:a6:e9:6a:7f:1f:b4:e1:68:e6:62:4e:10 (RSA)
+|   256 03:e2:28:46:ac:e7:b0:f7:91:3e:0d:d0:6a:51:46:a3 (ECDSA)
+|_  256 b8:9c:95:c6:8c:5a:c6:ac:20:f5:74:da:eb:db:ad:cc (ED25519)
+5060/tcp open     tcpwrapped
+8000/tcp open     tcpwrapped
+|_http-server-header: gunicorn/20.0.4
+|_http-title: CTF TAMK
+8443/tcp open     ssl/http   nginx 1.17.10
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+|_http-server-header: nginx/1.17.10
+| tls-nextprotoneg: 
+|_  http/1.1
+| ssl-cert: Subject: commonName=ctf.wpk.tpu.fi
+| Subject Alternative Name: DNS:ctf.wpk.tpu.fi
+| Not valid before: 2023-03-11T08:27:29
+|_Not valid after:  2023-06-09T08:27:28
+|_http-title: CTF TAMK
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 24 09:13:14 2023 -- 1 IP address (1 host up) scanned in 61.53 seconds
