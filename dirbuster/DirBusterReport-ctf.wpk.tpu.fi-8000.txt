@@ -1,0 +1,42 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Tue Oct 24 15:16:34 UTC 2023
+--------------------------------
+
+http://ctf.wpk.tpu.fi:8000
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 200 response:
+
+/
+
+Dirs found with a 301 response:
+
+/files/
+/files/bacee6dbbac752c2ebc9663a6a7d530f/
+/themes/
+/themes/hacker-theme/
+/themes/hacker-theme/static/
+/themes/hacker-theme/static/js/
+/themes/hacker-theme/static/js/pages/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 301 responce:
+
+/notifications
+/users
+/scoreboard
+/challenges
+/register
+/login
+/themes/hacker-theme/static/js/vendor.bundle.min.js
+/themes/hacker-theme/static/js/core.min.js
+/themes/hacker-theme/static/js/helpers.min.js
+/themes/hacker-theme/static/js/pages/main.min.js
+
+
+--------------------------------

@@ -1,0 +1,19 @@
+# Nmap 7.94 scan initiated Tue Oct 24 14:17:40 2023 as: nmap -sV -sC -p- -O -oN nmap_scans/lab2_host1_scan.txt 195.148.56.137
+Nmap scan report for pc56-137.tpu.fi (195.148.56.137)
+Host is up (0.0094s latency).
+Not shown: 65039 filtered tcp ports (no-response), 495 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.0p1 Debian 4+deb7u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 ab:40:0c:24:48:57:f6:66:5c:fd:45:23:55:bd:9e:21 (RSA)
+|   256 ea:46:34:0a:3b:78:a9:5f:55:c7:4d:76:95:3f:78:68 (ECDSA)
+|_  256 c3:24:29:0c:6f:93:1c:93:86:2b:e0:bb:3a:7c:d8:74 (ED25519)
+Device type: general purpose
+Running (JUST GUESSING): Linux 4.X|2.6.X|3.X (91%)
+OS CPE: cpe:/o:linux:linux_kernel:4.0 cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:3.10
+Aggressive OS guesses: Linux 4.0 (91%), Linux 2.6.32 (89%), Linux 4.4 (89%), Linux 2.6.32 or 3.10 (87%), Linux 2.6.32 - 2.6.35 (86%), Linux 2.6.32 - 2.6.39 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 24 14:22:32 2023 -- 1 IP address (1 host up) scanned in 292.19 seconds
