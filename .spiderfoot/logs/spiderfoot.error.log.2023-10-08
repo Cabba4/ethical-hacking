@@ -1,7 +1,0 @@
-2023-10-08 15:02:57,765 [WARNING] sf.py:550 : 
-********************************************************************
-Warning: passwd file contains no passwords. Authentication disabled.
-Please consider adding authentication to protect this instance!
-Refer to https://www.spiderfoot.net/documentation/#security.
-********************************************************************
-

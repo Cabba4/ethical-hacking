@@ -1,8 +1,0 @@
-{
-    "recon/domains-hosts/bing_domain_web": {
-        "SOURCE": "hackxor.net"
-    },
-    "recon/domains-hosts/hackertarget": {
-        "SOURCE": "hackxor.net"
-    }
-}
