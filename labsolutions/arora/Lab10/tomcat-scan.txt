@@ -1,0 +1,23 @@
+# Nmap 7.93 scan initiated Wed Nov  8 11:09:13 2023 as: nmap -sV -p 80,443,8080,8180 -oN arora/Lab10/tomcat-scan.txt 10.10.2.10 10.10.2.20
+Nmap scan report for Nissan_Skyline.cyberlab.test (10.10.2.10)
+Host is up (0.00094s latency).
+
+PORT     STATE  SERVICE  VERSION
+80/tcp   open   http     Apache httpd 2.2.14 ((Ubuntu) mod_mono/2.4.3 PHP/5.3.2-1ubuntu4.30 with Suhosin-Patch proxy_html/3.0.1 mod_python/3.3.1 Python/2.6.5 mod_ssl/2.2.14 OpenSSL...)
+443/tcp  open   ssl/http Apache httpd 2.2.14 ((Ubuntu) mod_mono/2.4.3 PHP/5.3.2-1ubuntu4.30 with Suhosin-Patch proxy_html/3.0.1 mod_python/3.3.1 Python/2.6.5 mod_ssl/2.2.14 OpenSSL...)
+8080/tcp open   http     Apache Tomcat/Coyote JSP engine 1.1
+8180/tcp closed unknown
+MAC Address: 00:15:5D:01:03:15 (Microsoft)
+
+Nmap scan report for Nissan_Sunny.cyberlab.test (10.10.2.20)
+Host is up (0.00098s latency).
+
+PORT     STATE  SERVICE    VERSION
+80/tcp   open   http       Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+443/tcp  closed https
+8080/tcp closed http-proxy
+8180/tcp open   http       Apache Tomcat/Coyote JSP engine 1.1
+MAC Address: 00:15:5D:01:02:2F (Microsoft)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov  8 11:09:26 2023 -- 2 IP addresses (2 hosts up) scanned in 12.77 seconds

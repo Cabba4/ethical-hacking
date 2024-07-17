@@ -1,0 +1,21 @@
+# Nmap 7.93 scan initiated Wed Nov 22 06:11:17 2023 as: nmap -sV -p- -oN target1-scan.txt 10.10.2.40
+Nmap scan report for Nissan_Qashqai.cyberlab.test (10.10.2.40)
+Host is up (0.0013s latency).
+Not shown: 65523 closed tcp ports (conn-refused)
+PORT     STATE SERVICE            VERSION
+135/tcp  open  msrpc              Microsoft Windows RPC
+139/tcp  open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds       Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+1025/tcp open  msrpc              Microsoft Windows RPC
+1026/tcp open  msrpc              Microsoft Windows RPC
+1027/tcp open  msrpc              Microsoft Windows RPC
+1028/tcp open  msrpc              Microsoft Windows RPC
+1029/tcp open  msrpc              Microsoft Windows RPC
+1030/tcp open  msrpc              Microsoft Windows RPC
+1044/tcp open  msrpc              Microsoft Windows RPC
+3389/tcp open  ssl/ms-wbt-server?
+5357/tcp open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+Service Info: Host: NISSAN_QASHQAI; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 22 06:13:47 2023 -- 1 IP address (1 host up) scanned in 150.39 seconds

@@ -1,0 +1,51 @@
+# Nmap 7.93 scan initiated Wed Nov 22 05:20:25 2023 as: nmap -O -oN hostup-scan.txt 10.10.2.25-45
+Nmap scan report for Nissan_Micra.cyberlab.test (10.10.2.30)
+Host is up (0.00074s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+49154/tcp open  unknown
+49156/tcp open  unknown
+MAC Address: 00:15:5D:01:03:1F (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2012
+OS CPE: cpe:/o:microsoft:windows_server_2012:r2
+OS details: Microsoft Windows Server 2012 or Windows Server 2012 R2
+Network Distance: 1 hop
+
+Nmap scan report for 10.10.2.35
+Host is up (0.0014s latency).
+All 1000 scanned ports on 10.10.2.35 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 00:17:59:7B:66:42 (Cisco Systems)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for Nissan_Qashqai.cyberlab.test (10.10.2.40)
+Host is up (0.00078s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1029/tcp open  ms-lsa
+1030/tcp open  iad1
+1044/tcp open  dcutility
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+MAC Address: 00:15:5D:01:02:30 (Microsoft)
+Device type: general purpose
+Running: Microsoft Windows 7|2008|8.1
+OS CPE: cpe:/o:microsoft:windows_7::- cpe:/o:microsoft:windows_7::sp1 cpe:/o:microsoft:windows_server_2008::sp1 cpe:/o:microsoft:windows_server_2008:r2 cpe:/o:microsoft:windows_8 cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 22 05:20:37 2023 -- 21 IP addresses (3 hosts up) scanned in 12.39 seconds

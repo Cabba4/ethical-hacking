@@ -1,0 +1,8 @@
+# Nmap 7.94 scan initiated Tue Oct 24 09:22:41 2023 as: nmap -sn -oN lab2_host_discovery.txt 195.148.56.130-190
+Nmap scan report for pc56-137.tpu.fi (195.148.56.137)
+Host is up (0.013s latency).
+Nmap scan report for pc56-151.tpu.fi (195.148.56.151)
+Host is up (0.011s latency).
+Nmap scan report for pc56-154.tpu.fi (195.148.56.154)
+Host is up (0.010s latency).
+# Nmap done at Tue Oct 24 09:22:42 2023 -- 61 IP addresses (3 hosts up) scanned in 1.73 seconds

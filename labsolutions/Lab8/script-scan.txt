@@ -1,0 +1,46 @@
+# Nmap 7.93 scan initiated Wed Nov  8 09:19:29 2023 as: nmap --script http-shellshock.nse --script-args uri=/cgi-bin/hello.cgi -p 80,443 -oN script-scan.txt 10.10.2.10 10.10.2.20
+Nmap scan report for Nissan_Skyline.cyberlab.test (10.10.2.10)
+Host is up (0.0015s latency).
+
+PORT    STATE SERVICE
+80/tcp  open  http
+| http-shellshock: 
+|   VULNERABLE:
+|   HTTP Shellshock vulnerability
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2014-6271
+|       This web application might be affected by the vulnerability known
+|       as Shellshock. It seems the server is executing commands injected
+|       via malicious HTTP headers.
+|             
+|     Disclosure date: 2014-09-24
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271
+|       http://www.openwall.com/lists/oss-security/2014/09/24/10
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7169
+|_      http://seclists.org/oss-sec/2014/q3/685
+443/tcp open  https
+| http-shellshock: 
+|   VULNERABLE:
+|   HTTP Shellshock vulnerability
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2014-6271
+|       This web application might be affected by the vulnerability known
+|       as Shellshock. It seems the server is executing commands injected
+|       via malicious HTTP headers.
+|             
+|     Disclosure date: 2014-09-24
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271
+|       http://www.openwall.com/lists/oss-security/2014/09/24/10
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7169
+|_      http://seclists.org/oss-sec/2014/q3/685
+
+Nmap scan report for Nissan_Sunny.cyberlab.test (10.10.2.20)
+Host is up (0.0017s latency).
+
+PORT    STATE  SERVICE
+80/tcp  open   http
+443/tcp closed https
+
+# Nmap done at Wed Nov  8 09:19:30 2023 -- 2 IP addresses (2 hosts up) scanned in 0.22 seconds

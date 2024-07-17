@@ -1,0 +1,14 @@
+# Nmap 7.93 scan initiated Wed Oct 25 07:06:31 2023 as: nmap -sn -oN host_scan.txt 10.10.2.10-100
+Nmap scan report for Nissan_Skyline.cyberlab.test (10.10.2.10)
+Host is up (0.0014s latency).
+Nmap scan report for Nissan_Sunny.cyberlab.test (10.10.2.20)
+Host is up (0.0020s latency).
+Nmap scan report for 10.10.2.35
+Host is up (0.0070s latency).
+Nmap scan report for Nissan_Qashqai.cyberlab.test (10.10.2.40)
+Host is up (0.0015s latency).
+Nmap scan report for 10.10.2.50
+Host is up (0.00077s latency).
+Nmap scan report for 10.10.2.60
+Host is up (0.0015s latency).
+# Nmap done at Wed Oct 25 07:06:33 2023 -- 91 IP addresses (6 hosts up) scanned in 1.74 seconds

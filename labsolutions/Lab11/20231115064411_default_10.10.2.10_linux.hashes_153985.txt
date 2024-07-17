@@ -1,0 +1,2 @@
+root:$6$GUZ2FiFh$Gte3X3tiK1jEGB83oZnD7TyiogYS0lind43lpVJxN5dL/W0CsnHJfW9X7XBzMUUndXo8WCGYBPaYP79dwo..n.:0:0:root:/root:/bin/bash
+user:$6$vGtj5JSH$mT18gcTVlO6HV.NYH0mx3/ItiiwKK.HyjV..RLxG6e.Gz9W894nBkn9wjQoaLUcL4W65pHicFVBUAOh8MMTJf1:1000:1000:user,,,:/home/user:/bin/bash

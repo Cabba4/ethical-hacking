@@ -1,0 +1,93 @@
+nmap -sV --script http-apache-server-status 10.10.2.10 10.10.2.20 10.10.2.60
+
+
+Nmap scan report for Nissan_Skyline.cyberlab.test (10.10.2.10)
+Host is up (0.021s latency).
+Not shown: 991 closed tcp ports (conn-refused)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 5.3p1 Debian 3ubuntu4 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http        Apache httpd 2.2.14 ((Ubuntu) mod_mono/2.4.3 PHP/5.3.2-1ubuntu4.30 with Suhosin-Patch proxy_html/3.0.1 mod_python/3.3.1 Python/2.6.5 mod_ssl/2.2.14 OpenSSL...)
+|_http-server-header: Apache/2.2.14 (Ubuntu) mod_mono/2.4.3 PHP/5.3.2-1ubuntu4.30 with Suhosin-Patch proxy_html/3.0.1 mod_python/3.3.1 Python/2.6.5 mod_ssl/2.2.14 OpenSSL/0.9.8k Phusion_Passenger/4.0.38 mod_perl/2.0.4 Perl/v5.10.1
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp  open  imap        Courier Imapd (released 2008)
+443/tcp  open  ssl/http    Apache httpd 2.2.14 ((Ubuntu) mod_mono/2.4.3 PHP/5.3.2-1ubuntu4.30 with Suhosin-Patch proxy_html/3.0.1 mod_python/3.3.1 Python/2.6.5 mod_ssl/2.2.14 OpenSSL...)
+|_http-server-header: Apache/2.2.14 (Ubuntu) mod_mono/2.4.3 PHP/5.3.2-1ubuntu4.30 with Suhosin-Patch proxy_html/3.0.1 mod_python/3.3.1 Python/2.6.5 mod_ssl/2.2.14 OpenSSL/0.9.8k Phusion_Passenger/4.0.38 mod_perl/2.0.4 Perl/v5.10.1
+445/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+5001/tcp open  java-object Java Object Serialization
+8080/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+8081/tcp open  http        Jetty 6.1.25
+|_http-server-header: Jetty(6.1.25)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5001-TCP:V=7.93%I=7%D=11/8%Time=654B8F4B%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,4,"\xac\xed\0\x05");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for Nissan_Sunny.cyberlab.test (10.10.2.20)
+Host is up (0.0045s latency).
+Not shown: 977 closed tcp ports (conn-refused)
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         vsftpd 2.3.4
+22/tcp   open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+23/tcp   open  telnet      Linux telnetd
+25/tcp   open  smtp        Postfix smtpd
+53/tcp   open  domain      ISC BIND 9.4.2
+80/tcp   open  http        Apache httpd 2.2.8 ((Ubuntu) DAV/2)
+|_http-server-header: Apache/2.2.8 (Ubuntu) DAV/2
+111/tcp  open  rpcbind     2 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|   100003  2,3,4       2049/tcp   nfs
+|   100003  2,3,4       2049/udp   nfs
+|   100005  1,2,3      41266/udp   mountd
+|   100005  1,2,3      57925/tcp   mountd
+|   100021  1,3,4      38715/udp   nlockmgr
+|   100021  1,3,4      46100/tcp   nlockmgr
+|   100024  1          54434/udp   status
+|_  100024  1          57176/tcp   status
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+512/tcp  open  exec        netkit-rsh rexecd
+513/tcp  open  login
+514/tcp  open  shell       Netkit rshd
+1099/tcp open  java-rmi    GNU Classpath grmiregistry
+1524/tcp open  bindshell   Metasploitable root shell
+2049/tcp open  nfs         2-4 (RPC #100003)
+2121/tcp open  ftp         ProFTPD 1.3.1
+3306/tcp open  mysql       MySQL 5.0.51a-3ubuntu5
+5432/tcp open  postgresql  PostgreSQL DB 8.3.0 - 8.3.7
+5900/tcp open  vnc         VNC (protocol 3.3)
+6000/tcp open  X11         (access denied)
+6667/tcp open  irc         UnrealIRCd
+8009/tcp open  ajp13       Apache Jserv (Protocol v1.3)
+8180/tcp open  http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-server-header: Apache-Coyote/1.1
+Service Info: Hosts:  metasploitable.localdomain, irc.Metasploitable.LAN; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.10.2.60
+Host is up (0.00039s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT      STATE SERVICE VERSION
+21/tcp    open  ftp     Axis M1011-W Network Camera ftpd 5.20.3 (Jun 23 2016)
+80/tcp    open  http    Boa httpd
+554/tcp   open  rtsp    Axis M1054 or P3364 Network Camera rtspd
+49152/tcp open  unknown
+| fingerprint-strings: 
+|   LDAPSearchReq: 
+|     HTTP/0.0 400 Bad Request
+|     SERVER: Linux/2.6.31, UPnP/1.0, Portable SDK for UPnP devices/1.4.1
+|     CONTENT-LENGTH: 50
+|     CONTENT-TYPE: text/html
+|_    <html><body><h1>400 Bad Request</h1></body></html>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port49152-TCP:V=7.93%I=7%D=11/8%Time=654B8FA3%P=x86_64-pc-linux-gnu%r(L
+SF:DAPSearchReq,C0,"HTTP/0\.0\x20400\x20Bad\x20Request\r\nSERVER:\x20Linux
+SF:/2\.6\.31,\x20UPnP/1\.0,\x20Portable\x20SDK\x20for\x20UPnP\x20devices/1
+SF:\.4\.1\r\nCONTENT-LENGTH:\x2050\r\nCONTENT-TYPE:\x20text/html\r\n\r\n<h
+SF:tml><body><h1>400\x20Bad\x20Request</h1></body></html>");
+Service Info: Device: webcam; CPE: cpe:/h:axis:m1011-w_network_camera
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 3 IP addresses (3 hosts up) scanned in 158.26 seconds

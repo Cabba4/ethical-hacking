@@ -1,0 +1,155 @@
+Building configuration...
+
+Current configuration : 2083 bytes
+!
+! Last configuration change at 15:50:17 UTC Sat Nov 12 2016 by admin
+!
+version 15.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 8 $8$42FhN9tMu0I17E$NU7OyQUXN7lGiWZFUIUNVUFMZxb/b2/kMrfT50yjM22
+!
+aaa new-model
+!
+!
+aaa authentication login default group radius none
+!
+!
+!
+!
+!
+aaa session-id common
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+no ip domain lookup
+ip domain name netsec.com
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+cts logging verbose
+!
+!
+license udi pid CISCO2901/K9 sn FCZ2012608H
+!
+!
+username user01 secret 8 $8$NEeZRcpqPu/yOE$5y7gGREz6XpsgjPrzdSuPl1MeNoz/mk4K69EOs0pYTM
+username admin privilege 15 secret 8 $8$S9YYX.XgX77JYk$ddW.EFNV36xcyYayFC2cRG/9S92n4BVFeLBAPbjkqAE
+!
+redundancy
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address 10.1.1.1 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 192.168.1.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface Serial0/0/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/0/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface FastEthernet0/1/0
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1/1
+ no ip address
+ shutdown
+ duplex auto
+ speed auto
+!
+router ospf 1
+ passive-interface GigabitEthernet0/1
+ network 10.1.1.0 0.0.0.3 area 0
+ network 192.168.1.0 0.0.0.255 area 0
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip route 0.0.0.0 0.0.0.0 10.1.1.2
+!
+!
+!
+!
+radius server NetSec
+ address ipv4 192.168.1.11 auth-port 1812 acct-port 1813
+ key $trongPass
+!
+!
+!
+control-plane
+!
+!
+!
+line con 0
+ exec-timeout 5 0
+ logging synchronous
+line aux 0
+ exec-timeout 5 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ exec-timeout 5 0
+ transport input ssh
+!
+scheduler allocate 20000 1000
+!
+end

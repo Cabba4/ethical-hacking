@@ -1,0 +1,29 @@
+## Popular cybersecurity certifications
+
+1) CISSP - International Information System Security Certification Consortium, also known as (ISC)².
+2) CompTIA Security + - CompTIA
+3) CEH - The EC council organisation
+4) OSCP - Offensive Security
+
+## 3 certifications
+
+OSCP - Offensive Security Certified Professional (OSCP) is a certification program that focuses on hands-on offensive information security skills. It consists of two parts: a nearly 24-hour pen testing exam, and a documentation report due 24 hours after it
+
+CEH - The CEH exam is a 4-hour exam with 125 multiple choice questions. This knowledge-based exam will test your skills in Information Security Threats and Attack Vectors, Attack Detection, Attack Prevention, Procedures, Methodologies and more!
+
+Security + - Security+ is compliant with ISO 17024 standards and approved by the US DoD to meet directive 8140/8570.01-M requirements. Regulators and government rely on ANSI accreditation, because it provides confidence and trust in the outputs of an accredited program.
+
+## Positions available in CyberSecurity (using linkedin)
+
+1) Within the last two weeks there were around 250+ job postings
+
+2) The average salary for cyber security engineer in finland is €90,874 (EUR)
+
+3) The most common qualifications are CISSP/OSCP for senior level jobs otherwise experience with Active Directory, Bachelors or Masters in CyberSecurity, willingness to learn.
+
+4) CISM, Security +, CISSP, CISA etc
+
+5) Yes the most common certifications I found were OSCP, CISSP and Security +
+
+6) The tools I can find are OWASP Juice Shop, HacktheBox, TryHackMe, DefendTheNet etc
+

@@ -1,0 +1,150 @@
+
+Building configuration...
+
+Current configuration : 2046 bytes
+!
+! Last configuration change at 23:39:29 UTC Wed Dec 4 2019 by admin
+!
+version 15.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain name netsec.com
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+cts logging verbose
+!
+!
+license udi pid CISCO2901/K9 sn FCZ2012608M
+!
+!
+username admin secret 9 $9$W1LYm8f4vsxSo.$OQRdhbcwgO/cRLwFUFETcdl3kfzYovslWe.NJhsq526
+!
+redundancy
+!
+!
+!
+!
+!
+!
+!
+crypto isakmp policy 10
+ encr aes 256
+ authentication pre-share
+ group 5
+ lifetime 120
+crypto isakmp key 1.0.0.3 address 1.0.0.1
+!
+!
+crypto ipsec transform-set 50 esp-aes 192 esp-md5-hmac
+ mode tunnel
+!
+!
+!
+crypto map VPN 10 ipsec-isakmp
+ set peer 1.0.0.1
+ set security-association lifetime seconds 120
+ set transform-set 50
+ set pfs group5
+ match address 101
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address 1.0.0.3 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 3.0.0.1 255.0.0.0
+ duplex auto
+ speed auto
+ crypto map VPN
+!
+interface Serial0/0/0
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+interface Serial0/0/1
+ no ip address
+ shutdown
+ clock rate 2000000
+!
+router ospf 1
+ network 1.0.0.0 0.0.0.255 area 0
+ network 3.0.0.0 0.0.0.255 area 0
+!
+ip forward-protocol nd
+!
+no ip http server
+no ip http secure-server
+!
+ip default-network 1.0.0.0
+ip route 0.0.0.0 0.0.0.0 1.0.0.1
+!
+!
+!
+access-list 101 permit ip 3.0.0.0 0.0.0.255 1.0.0.0 0.0.0.255
+!
+control-plane
+!
+!
+!
+line con 0
+ exec-timeout 5 0
+ logging synchronous
+ login local
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ access-class 1 in
+ exec-timeout 5 0
+ login local
+ transport input ssh
+line vty 5 15
+ access-class 1 in
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+!
+end

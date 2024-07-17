@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Wed Oct 25 07:34:05 2023 as: nmap -sU -p 1899-1901 -oN target_udp_scan.txt 10.10.2.60
+Nmap scan report for 10.10.2.60
+Host is up (0.0052s latency).
+
+PORT     STATE         SERVICE
+1899/udp closed        mc2studios
+1900/udp open|filtered upnp
+1901/udp closed        fjicl-tep-a
+MAC Address: 00:40:8C:BE:5B:CC (Axis Communications AB)
+
+# Nmap done at Wed Oct 25 07:34:07 2023 -- 1 IP address (1 host up) scanned in 1.42 seconds

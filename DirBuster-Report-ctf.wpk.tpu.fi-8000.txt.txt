@@ -1,8 +1,0 @@
-DirBuster 1.0-RC1 - Report
-http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
-Report produced on Tue Oct 24 15:05:06 UTC 2023
---------------------------------
-
-http://ctf.wpk.tpu.fi:8000
---------------------------------
---------------------------------

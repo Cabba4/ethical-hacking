@@ -1,0 +1,13 @@
+workspaces list
+workspaces load L1-ctf.wpk
+modules list
+modules search
+marketplace search
+modules load recon/domains-hosts/hackertarget
+options list
+options set SOURCE ctf.wpk.tpu.fi
+run
+options set SOURCE tpu.fi
+run
+back
+exit

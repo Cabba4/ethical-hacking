@@ -1,0 +1,9 @@
+Marriott Data Breach of 2018
+
+Marriott International is the largest hotel chain in the world and they were victims of a phishing attack!
+The victims of this attack were about 500 million customers of the hotel chain.
+In the investigation Marriott found Remote access trojan along with MimiKatz a tool used for sniffing out username/passwords from a system.
+Marriott noticed the attack in late 2018 when an internal security tool flagged a suspicious attempt to access guest information from the databases. Later it was found that the hack had been going on for 4 years.
+The customer database was targeted which contained sensitive things like credit card information and passport numbers!
+It was found out that the real criminals were infact state sponsered chinese hackers and that this hack was an attempt by the chinese government to create a data lake of information on American government employees and agents as Marriott is the top hotel provider for the US governmet and military.
+The outcome of this breach was loss of customer data and sensitive information, none of the data was sold on the dark-web so it is very likely that it was stored by the chinese intelligence!

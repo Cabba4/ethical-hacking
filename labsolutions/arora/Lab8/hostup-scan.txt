@@ -1,0 +1,89 @@
+# Nmap 7.93 scan initiated Wed Nov  8 08:31:48 2023 as: nmap -sN -oN hostup-scan.txt 10.10.2.0-70
+Nmap scan report for Nissan_Skyline.cyberlab.test (10.10.2.10)
+Host is up (0.0021s latency).
+Not shown: 991 closed tcp ports (reset)
+PORT     STATE         SERVICE
+22/tcp   open|filtered ssh
+80/tcp   open|filtered http
+139/tcp  open|filtered netbios-ssn
+143/tcp  open|filtered imap
+443/tcp  open|filtered https
+445/tcp  open|filtered microsoft-ds
+5001/tcp open|filtered commplex-link
+8080/tcp open|filtered http-proxy
+8081/tcp open|filtered blackice-icecap
+MAC Address: 00:15:5D:01:03:15 (Microsoft)
+
+Nmap scan report for Nissan_Sunny.cyberlab.test (10.10.2.20)
+Host is up (0.0025s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE         SERVICE
+21/tcp   open|filtered ftp
+22/tcp   open|filtered ssh
+23/tcp   open|filtered telnet
+25/tcp   open|filtered smtp
+53/tcp   open|filtered domain
+80/tcp   open|filtered http
+111/tcp  open|filtered rpcbind
+139/tcp  open|filtered netbios-ssn
+445/tcp  open|filtered microsoft-ds
+512/tcp  open|filtered exec
+513/tcp  open|filtered login
+514/tcp  open|filtered shell
+1099/tcp open|filtered rmiregistry
+1524/tcp open|filtered ingreslock
+2049/tcp open|filtered nfs
+2121/tcp open|filtered ccproxy-ftp
+3306/tcp open|filtered mysql
+5432/tcp open|filtered postgresql
+5900/tcp open|filtered vnc
+6000/tcp open|filtered X11
+6667/tcp open|filtered irc
+8009/tcp open|filtered ajp13
+8180/tcp open|filtered unknown
+MAC Address: 00:15:5D:01:02:2F (Microsoft)
+
+Nmap scan report for Nissan_Micra.cyberlab.test (10.10.2.30)
+Host is up (0.00057s latency).
+All 1000 scanned ports on Nissan_Micra.cyberlab.test (10.10.2.30) are in ignored states.
+Not shown: 1000 open|filtered tcp ports (no-response)
+MAC Address: 00:15:5D:01:03:1F (Microsoft)
+
+Nmap scan report for 10.10.2.35
+Host is up (0.0068s latency).
+All 1000 scanned ports on 10.10.2.35 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 00:17:59:7B:66:42 (Cisco Systems)
+
+Nmap scan report for Nissan_Qashqai.cyberlab.test (10.10.2.40)
+Host is up (0.0014s latency).
+All 1000 scanned ports on Nissan_Qashqai.cyberlab.test (10.10.2.40) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 00:15:5D:01:03:1B (Microsoft)
+
+Nmap scan report for 10.10.2.50
+Host is up (0.00023s latency).
+Not shown: 991 closed tcp ports (reset)
+PORT      STATE         SERVICE
+21/tcp    open|filtered ftp
+22/tcp    open|filtered ssh
+23/tcp    open|filtered telnet
+139/tcp   open|filtered netbios-ssn
+445/tcp   open|filtered microsoft-ds
+631/tcp   open|filtered ipp
+873/tcp   open|filtered rsync
+8200/tcp  open|filtered trivnet1
+49152/tcp open|filtered unknown
+MAC Address: 00:08:9B:C1:D7:38 (ICP Electronics)
+
+Nmap scan report for 10.10.2.60
+Host is up (0.00044s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE         SERVICE
+21/tcp    open|filtered ftp
+80/tcp    open|filtered http
+554/tcp   open|filtered rtsp
+49152/tcp open|filtered unknown
+MAC Address: 00:40:8C:BE:5B:CC (Axis Communications AB)
+
+# Nmap done at Wed Nov  8 08:31:53 2023 -- 71 IP addresses (7 hosts up) scanned in 5.00 seconds

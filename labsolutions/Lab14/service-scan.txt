@@ -1,0 +1,91 @@
+└─$ nmap -sV -sC 10.10.2.50 -p-                                                 
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-11-15 09:42 EST
+Stats: 0:01:07 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 92.86% done; ETC: 09:43 (0:00:05 remaining)
+Stats: 0:02:20 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 92.86% done; ETC: 09:44 (0:00:11 remaining)
+Nmap scan report for 10.10.2.50
+Host is up (0.0041s latency).
+Not shown: 65521 closed tcp ports (conn-refused)
+PORT      STATE SERVICE     VERSION
+21/tcp    open  ftp         ProFTPD
+22/tcp    open  ssh         OpenSSH 7.3 (protocol 2.0)
+| ssh-hostkey: 
+|_  2048 ac323a2634ed4784cedd193ee3bfe404 (RSA)
+23/tcp    open  telnet      utelnetd
+139/tcp   open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp   open  netbios-ssn Samba smbd 3.6.25 (workgroup: WORKGROUP)
+631/tcp   open  ipp         CUPS 2.1
+|_http-server-header: CUPS/2.1 IPP/2.1
+|_http-title: Not Found - CUPS v2.1.3
+| http-methods: 
+|_  Potentially risky methods: PUT
+873/tcp   open  rsync       (protocol version 30)
+3310/tcp  open  mysql       MySQL 5.5.51-MariaDB
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.51-MariaDB
+|   Thread ID: 15
+|   Capabilities flags: 63487
+|   Some Capabilities: SupportsTransactions, ConnectWithDatabase, InteractiveClient, Speaks41ProtocolOld, Support41Auth, IgnoreSigpipes, IgnoreSpaceBeforeParenthesis, FoundRows, LongPassword, DontAllowDatabaseTableColumn, Speaks41ProtocolNew, ODBCClient, SupportsLoadDataLocal, SupportsCompression, LongColumnFlag, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: 1d'3g2^ggO9j0Je<=^@c
+|_  Auth Plugin Name: mysql_native_password
+8200/tcp  open  upnp        QNAP DLNA 1.0 (DLNADOC 1.50; UPnP 1.0)
+8889/tcp  open  ddi-tcp-2?
+9251/tcp  open  unknown
+9288/tcp  open  unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, JavaRMI, LANDesk-RC, LDAPSearchReq, LPDString, NCP, RPCCheck, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, WMSRequest, X11Probe, giop, ms-sql-s: 
+|_    32512
+23310/tcp open  mysql       MySQL 5.5.51-MariaDB
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.51-MariaDB
+|   Thread ID: 33
+|   Capabilities flags: 63487
+|   Some Capabilities: SupportsTransactions, ConnectWithDatabase, InteractiveClient, Speaks41ProtocolOld, Support41Auth, IgnoreSigpipes, IgnoreSpaceBeforeParenthesis, FoundRows, LongPassword, DontAllowDatabaseTableColumn, Speaks41ProtocolNew, ODBCClient, SupportsLoadDataLocal, SupportsCompression, LongColumnFlag, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: pU9Z;W'Yj,:}*SGJ|Q`q
+|_  Auth Plugin Name: mysql_native_password
+49152/tcp open  upnp        Portable SDK for UPnP devices 1.6.19 (Linux 3.4.6; UPnP 1.0)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9288-TCP:V=7.93%I=7%D=11/15%Time=6554D8D7%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,C,"32512\0\0\0\0\0\0\0")%r(GetRequest,C,"32512\0\0\0\0\0\0\
+SF:0")%r(HTTPOptions,C,"32512\0\0\0\0\0\0\0")%r(RTSPRequest,C,"32512\0\0\0
+SF:\0\0\0\0")%r(RPCCheck,C,"32512\0\0\0\0\0\0\0")%r(DNSVersionBindReqTCP,C
+SF:,"0\x00512\0\0\0\0\0\0\0")%r(DNSStatusRequestTCP,C,"0\x00512\0\0\0\0\0\
+SF:0\0")%r(Help,C,"32512\0\0\0\0\0\0\0")%r(SSLSessionReq,C,"32512\0\0\0\0\
+SF:0\0\0")%r(TerminalServerCookie,C,"32512\0\0\0\0\0\0\0")%r(TLSSessionReq
+SF:,C,"32512\0\0\0\0\0\0\0")%r(Kerberos,C,"0\x00512\0\0\0\0\0\0\0")%r(SMBP
+SF:rogNeg,C,"0\x00512\0\0\0\0\0\0\0")%r(X11Probe,C,"32512\0\0\0\0\0\0\0")%
+SF:r(FourOhFourRequest,C,"32512\0\0\0\0\0\0\0")%r(LPDString,C,"32512\0\0\0
+SF:\0\0\0\0")%r(LDAPSearchReq,C,"32512\0\0\0\0\0\0\0")%r(LDAPBindReq,C,"51
+SF:2\x002\0\0\0\0\0\0\0")%r(SIPOptions,C,"512\x002\0\0\0\0\0\0\0")%r(LANDe
+SF:sk-RC,C,"32512\0\0\0\0\0\0\0")%r(TerminalServer,C,"32512\0\0\0\0\0\0\0"
+SF:)%r(NCP,C,"32512\0\0\0\0\0\0\0")%r(NotesRPC,C,"0\x00512\0\0\0\0\0\0\0")
+SF:%r(JavaRMI,C,"32512\0\0\0\0\0\0\0")%r(WMSRequest,C,"32512\0\0\0\0\0\0\0
+SF:")%r(oracle-tns,C,"0\x00512\0\0\0\0\0\0\0")%r(ms-sql-s,C,"32512\0\0\0\0
+SF:\0\0\0")%r(afp,C,"0\x00512\0\0\0\0\0\0\0")%r(giop,C,"32512\0\0\0\0\0\0\
+SF:0");
+Service Info: Host: NAS2; OSs: Unix, Linux 3.4.6, Linux; CPE: cpe:/o:linux:linux_kernel:3.4.6
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+|_clock-skew: mean: 2m19s, deviation: 1h24m51s, median: -57m40s
+|_nbstat: NetBIOS name: NAS2, NetBIOS user: <unknown>, NetBIOS MAC: 000000000000 (Xerox)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb-os-discovery: 
+|   OS: QTS (Samba 3.6.25)
+|   Computer name: NAS2
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: NAS2
+|_  System time: 2023-11-15T17:47:22+02:00
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 176.20 seconds
