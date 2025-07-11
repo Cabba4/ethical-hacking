@@ -1,0 +1,5 @@
+# Dirsearch started Fri Jan 24 12:53:34 2025 as: /home/anmol/.local/bin/dirsearch -u http://underpass.htb/daloradius/app/ -t 50 -w /usr/share/wordlists/discovery/directory_list_2.3_medium.txt
+
+301   330B   http://underpass.htb/daloradius/app/common    -> REDIRECTS TO: http://underpass.htb/daloradius/app/common/
+301   333B   http://underpass.htb/daloradius/app/operators    -> REDIRECTS TO: http://underpass.htb/daloradius/app/operators/
+301   329B   http://underpass.htb/daloradius/app/users    -> REDIRECTS TO: http://underpass.htb/daloradius/app/users/

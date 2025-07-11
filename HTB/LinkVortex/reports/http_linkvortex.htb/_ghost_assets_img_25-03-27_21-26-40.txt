@@ -1,0 +1,5 @@
+# Dirsearch started Thu Mar 27 21:27:28 2025 as: /home/anmol/.local/bin/dirsearch -u http://linkvortex.htb/ghost/assets/img -w /usr/share/wordlists/discovery/common.txt -e php,html,js,txt,json -t 50
+
+301   211B   http://linkvortex.htb/ghost/assets/img/logos    -> REDIRECTS TO: /ghost/assets/img/logos/
+301   219B   http://linkvortex.htb/ghost/assets/img/marketing    -> REDIRECTS TO: /ghost/assets/img/marketing/
+301   213B   http://linkvortex.htb/ghost/assets/img/themes    -> REDIRECTS TO: /ghost/assets/img/themes/

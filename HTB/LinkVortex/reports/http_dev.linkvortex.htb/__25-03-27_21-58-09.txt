@@ -1,0 +1,5 @@
+# Dirsearch started Thu Mar 27 21:58:48 2025 as: /home/anmol/.local/bin/dirsearch -u http://dev.linkvortex.htb/ -w /usr/share/wordlists/discovery/common.txt -e php,html,js,txt,json -t 50
+
+200    41B   http://dev.linkvortex.htb/.git/HEAD
+403   199B   http://dev.linkvortex.htb/cgi-bin/
+403   199B   http://dev.linkvortex.htb/server-status

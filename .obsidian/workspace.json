@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "05588a10bf51dc77",
+    "type": "split",
+    "children": [
+      {
+        "id": "a67ddca983a6447d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f90493b885445055",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTFS/pwn_college/Assembly Crash Course.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Assembly Crash Course"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5131b2e8eb0a8ea8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1d2cfeac2fab38d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1082b28db02d440",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9032a1d3e4531959",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9a5ccf0ffa6867fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a724a0cdc619ac37",
+    "type": "split",
+    "children": [
+      {
+        "id": "a67452e4f24209b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d67b931b7f5a94e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hardware/Wireless scanning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Wireless scanning"
+            }
+          },
+          {
+            "id": "298e81dcf9169578",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hardware/Wireless scanning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Wireless scanning"
+            }
+          },
+          {
+            "id": "0ce9904d0fae21c9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "77fa646b02bf93f8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hardware/Wireless scanning.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Wireless scanning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f90493b885445055",
+  "lastOpenFiles": [
+    "README.md",
+    "CTFS/pwn_college/Assembly Crash Course.md",
+    "CTFS/pwn_college",
+    "Untitled.canvas",
+    "Untitled.md",
+    "Amazon Interview guide.md",
+    "Hardware/Inventory.md",
+    "Hardware/Wireless scanning.md",
+    "Hardware/reliable-01.cap",
+    "Hardware/reliable-01.kismet.netxml",
+    "Hardware/reliable-01.kismet.csv",
+    "Hardware/reliable-01.log.csv",
+    "Hardware/reliable-01.csv",
+    "Hardware/test",
+    "Hardware/morpheus-01.cap",
+    "Hardware/morpheus-01.kismet.netxml",
+    "Hardware/morpheus-01.kismet.csv"
+  ]
+}

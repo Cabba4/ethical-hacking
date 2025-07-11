@@ -1,0 +1,8 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+98:0D:67:1B:6B:81, 2025-04-03 21:39:44, 2025-04-03 21:39:58,  8, 130, WPA2, CCMP, PSK, -27,       16,        2,   0.  0.  0.  0,  12, MegaPussi_2G, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+CC:8C:BF:F2:36:B9, 2025-04-03 21:39:54, 2025-04-03 21:39:58, -51,        4, 98:0D:67:1B:6B:81,
+CC:8C:BF:69:49:54, 2025-04-03 21:39:56, 2025-04-03 21:39:58, -54,        2, 98:0D:67:1B:6B:81,
+

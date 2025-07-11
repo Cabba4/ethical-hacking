@@ -1,0 +1,15 @@
+# Dirsearch started Thu Mar 27 22:02:35 2025 as: /home/anmol/.local/bin/dirsearch -u http://dev.linkvortex.htb/ -t 50 -i 200
+
+200   557B   http://dev.linkvortex.htb/.git/
+200   201B   http://dev.linkvortex.htb/.git/config
+200    73B   http://dev.linkvortex.htb/.git/description
+200    41B   http://dev.linkvortex.htb/.git/HEAD
+200   402B   http://dev.linkvortex.htb/.git/info/
+200   240B   http://dev.linkvortex.htb/.git/info/exclude
+200   401B   http://dev.linkvortex.htb/.git/logs/
+200   175B   http://dev.linkvortex.htb/.git/logs/HEAD
+200   418B   http://dev.linkvortex.htb/.git/objects/
+200   393B   http://dev.linkvortex.htb/.git/refs/
+200   620B   http://dev.linkvortex.htb/.git/hooks/
+200   147B   http://dev.linkvortex.htb/.git/packed-refs
+200   691KB  http://dev.linkvortex.htb/.git/index

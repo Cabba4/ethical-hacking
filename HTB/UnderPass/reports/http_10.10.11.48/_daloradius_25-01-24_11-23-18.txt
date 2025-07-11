@@ -1,0 +1,12 @@
+# Dirsearch started Fri Jan 24 11:24:05 2025 as: /home/anmol/.local/bin/dirsearch -u http://10.10.11.48/daloradius --crawl
+
+200   221B   http://10.10.11.48/daloradius/.gitignore
+301   319B   http://10.10.11.48/daloradius/app    -> REDIRECTS TO: http://10.10.11.48/daloradius/app/
+200    24KB  http://10.10.11.48/daloradius/ChangeLog
+301   319B   http://10.10.11.48/daloradius/doc    -> REDIRECTS TO: http://10.10.11.48/daloradius/doc/
+200     2KB  http://10.10.11.48/daloradius/docker-compose.yml
+200     2KB  http://10.10.11.48/daloradius/Dockerfile
+301   323B   http://10.10.11.48/daloradius/library    -> REDIRECTS TO: http://10.10.11.48/daloradius/library/
+200    18KB  http://10.10.11.48/daloradius/LICENSE
+200    10KB  http://10.10.11.48/daloradius/README.md
+301   321B   http://10.10.11.48/daloradius/setup    -> REDIRECTS TO: http://10.10.11.48/daloradius/setup/

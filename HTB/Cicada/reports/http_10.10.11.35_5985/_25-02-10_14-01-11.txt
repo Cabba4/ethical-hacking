@@ -1,0 +1,7 @@
+# Dirsearch started Mon Feb 10 14:02:44 2025 as: /home/anmol/.local/bin/dirsearch -u http://10.10.11.35:5985
+
+403   312B   http://10.10.11.35:5985/%2e%2e//google.com
+403   312B   http://10.10.11.35:5985/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+403   312B   http://10.10.11.35:5985/\..\..\..\..\..\..\..\..\..\etc\passwd
+403   312B   http://10.10.11.35:5985/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
+405     0B   http://10.10.11.35:5985/wsman
